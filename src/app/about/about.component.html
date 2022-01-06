@@ -1,0 +1,101 @@
+<!--
+ * * Title: about.component.html
+ * Author: Larry Ohaka
+ * Date: 6/25/21
+ * Description: Navigation and Layout
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/scss" href="./about.component.scss">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  
+  <title>ZRA</title>
+</head>
+<!------------------------Body Starts Here!------------------------->
+<body>
+
+  <!--Sidenav-->
+  <div class="sidenav">
+
+  
+  <ul class="nav">
+
+    <li><a routerLink="/about" data-hover="ABOUT">ABOUT</a></li>
+    <li><a routerLink="/team" data-hover="TEAM">TEAM</a></li>
+    <li><a routerLink="/contact" data-hover="CONTACT">CONTACT</a></li>
+    <li><a routerLink="/contracts" data-hover="CONTRACTS">CONTRACTS</a></li>
+    <li><a routerLink="/careers" data-hover="CAREERS">CAREERS</a></li>
+  </ul>
+</div>
+
+
+  <header class="banner">
+
+      <!--Logo-->
+  <div class="logo">
+    <a routerLink=""><img src="../assets/ZRA Website 2022-09.png"></a>
+  </div>
+
+ </header>
+
+
+
+
+  <!------------Main section---------->
+ 
+
+
+<!-----------Section 1------------->
+
+<div class="header">
+<!--Title-->
+   <div class="viewport-header">
+    <h1>
+      ABOUT
+      <br/>
+      ZRA
+    </h1>
+  </div>
+<!--Illustration-->
+<div class="header-img" >
+    <img src="assets/ZRA Website 2022-14.png" style="width: 80%;">
+</div>
+</div>
+
+<main id="main">
+    <div class="info">
+<p>ZRA is a small business with over 20 years of experience in <b>cybersecurity, risk management, program management, strategic planning, and law and policy</b>.</p>
+
+   <p> ZRA has an experienced team of strategic thinkers with law and policy, computer science, business, audit, finance, and engineering backgrounds. ZRA's dynamic team provides the government and leading critical infrastructure companies with innovative approaches to address cybersecurity challenges.</p>
+   <p>ZRA is a trusted advisor to senior leaders and executives in both the public and private sectors. Our community of partners and customers include <i>federal and state governments, Fortune 200 companies, venture capital firms, trade associations, research and development centers, and top universities.</i></p>
+</div>
+
+
+</main>
+
+
+<!--Footer-->
+ <footer>
+   <div class="social-media">
+    <p>Follow Us |  
+      <img src="../assets/ZRA Website 2022-16.png">
+      <img src="../assets/ZRA Website 2022-15.png">
+    </p>
+   
+
+   </div>
+   
+  <p><a href="contact/contact.component.html">Contact </a>    |      <a href="careers/careers.component.html">Careers</a>      |      <a href="about/about.component.html">About</a>     <br>
+  <a>© Copyright 2021 ZRA, All Rights Reserved</a></p>
+</footer>
+
+<!----------------------------Script---------------------------->
+
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!--
+ * * Title: contact.component.html
+ * Author: Larry Ohaka
+ * Date: 6/25/21
+ * Description: Navigation and Layout
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/scss" href="./contact.component.scss">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  
+  <title>ZRA</title>
+</head>
+<!------------------------Body Starts Here!------------------------->
+<body>
+
+  <!--Sidenav-->
+  <div class="sidenav">
+
+  
+  <ul class="nav">
+
+    <li><a routerLink="/about" data-hover="ABOUT">ABOUT</a></li>
+    <li><a routerLink="/team" data-hover="TEAM">TEAM</a></li>
+    <li><a routerLink="/contact" data-hover="CONTACT">CONTACT</a></li>
+    <li><a routerLink="/contract" data-hover="CONTRACTS">CONTRACTS</a></li>
+    <li><a routerLink="/careers" data-hover="CAREERS">CAREERS</a></li>
+  </ul>
+</div>
+
+
+  <header class="banner">
+
+      <!--Logo-->
+  <div class="logo">
+    <a routerLink=""><img src="../assets/ZRA Website 2022-09.png"></a>
+  </div>
+
+ </header>
+
+
+
+
+  <!------------Main section---------->
+ 
+
+
+<!-----------Section 1------------->
+
+
+<div class="header">
+<!--Title-->
+   <div class="viewport-header">
+    <h1>
+      CONTACT
+      <br/>
+      US
+    </h1>
+  </div>
+<!--Illustration-->
+<div class="header-img" >
+    <img src="assets/ZRA Website 2022-22.png" style="width: 80%;">
+</div>
+</div>
+
+<main id="main">
+  <div class="where">
+    <h3>WHERE TO FIND US</h3>
+  
+    <p>Zeichner Risk Analytics (ZRA) is located in the tallest building of the three Ballston Plaza office buildings in the northwest quadrant of North Glebe Road and North Fairfax Drive. It is located between the Marymount University Ballston Campus and I-66, and is recognizable by the CACI corporate sign at the top. Underground parking is available in our building. As unreserved parking can be limited, the entrance off Wakefield is the easiest place to arrange key transfer with the attendant (probably at the tandem spaces near the entrance). The maximum charge per day is currently $11.00. Hours of operation are from 7 a.m. to 11 p.m.</p>
+  </div>
+  
+    <div class="info">
+        <!--contact-->
+<div class="contact">
+    <h2><b>Address</b></h2>
+    <p>4601 Fairfax Drive <br/>Suite 1130<br/>
+        Arlington, VA 22203</p>
+
+        <h2><b>General Inquiry</b></h2>
+        <p>4contact@zra.com</p>
+
+            <h2><b>Phone</b></h2>
+            <p>(703) 351-1101</p>
+</div>
+
+<!--map-->
+<div class="map">
+
+    <!--The div element for the map -->
+   
+        <google-map></google-map>
+</div>
+
+
+</div>
+
+
+</main>
+
+
+<!--Footer-->
+ <footer>
+   <div class="social-media">
+    <p>Follow Us |  
+      <img src="../assets/ZRA Website 2022-16.png">
+      <img src="../assets/ZRA Website 2022-15.png">
+    </p>
+   
+
+   </div>
+   
+  <p><a href="contact/contact.component.html">Contact </a>    |      <a href="careers/careers.component.html">Careers</a>      |      <a href="about/about.component.html">About</a>     <br>
+  <a>© Copyright 2021 ZRA, All Rights Reserved</a></p>
+</footer>
+
+<!----------------------------Script---------------------------->
+
+
+</body>
+</html>
+

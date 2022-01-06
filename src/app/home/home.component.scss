@@ -1,0 +1,331 @@
+/**
+ * * Title: home.component.css
+ * Author: Larry Ohaka
+ * Date: 6/25/21
+ * Description: Navigation and Layout
+ */
+ 
+ @mixin coverer {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  /* logo */
+  .logo1 img{
+    z-index: 2;
+    top:0;
+    left: 0;
+    position:absolute;
+    padding: 20px;
+    width: 150px;
+  }
+  
+    /* video background */
+    .video-header {
+      position: absolute;
+      text-align: center;
+      width: 100vw;
+      height: 100vh;
+      &, video, .viewport-header{
+        @include coverer;
+      }
+      video {
+        background: rgb(255, 255, 255);
+        object-fit: cover;
+      }
+    }
+    
+     video, .viewport-header1 {
+      @include coverer;
+    }
+    
+    .viewport-header1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+  
+    
+    
+    
+  
+    h1 {
+      color: white;
+      text-transform: uppercase;
+     
+      line-height: 1.2;
+      font-size:  3vw;
+      text-align: center;
+      font-weight: 300;
+      span {
+        display: block;
+        font-size: 4vw;
+        letter-spacing:1rem;
+        top: 1;
+      }
+    }
+    
+    h3 {
+      color: rgb(80, 80, 80);
+      font-weight: 300;
+      text-align: left;
+      font-size: 50px ; 
+    }
+    
+    h2{
+      font-size: 40px;
+      font-weight: 300;
+      text-align: left;
+      color: rgb(82, 82, 82);
+    }
+    
+    p {
+      font-weight: 300;
+      font-size: 19px ;
+    }
+    
+    a {
+      text-decoration: none;
+      
+    }
+     /* Main section below header */
+    
+     main {
+      background: white;
+      position: relative;
+      z-index: 1;
+      margin-top: 100vh;
+    
+      &::before{
+        content: "";
+        @include coverer;
+        top: -100vh;
+        
+      }
+    }
+    
+  
+    
+    
+    
+   
+    /* Slider text */
+    .header-content{
+     text-align: center;
+     color: white;
+     line-height: 30px 2.1vh;
+    }
+    
+    .header-content h4{
+    font-size:30px;
+    font-weight: 300;
+    
+    }
+    
+  
+    
+    .card1{
+      background: rgb(255, 255, 255);
+     }
+    
+     .card2{
+      background: rgb(255, 255, 255);
+     }
+    
+     .card3{
+      color: white;
+      height: 500px;
+     }
+    
+     .card3 p{
+      font-size: 15px;
+      line-height: 2em;
+     }
+  
+    
+     .card3 h4{
+       font-weight: 300;
+       color: white;
+       align-content: center;
+       font-size: 40px;
+     }
+    
+    
+      .card4{
+        background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.863)), ; background-repeat: no-repeat;
+          background-size: cover; 
+          color: white;
+          height: 300px;
+       }
+    
+       .card4 p{
+        font-size: 15px;
+        line-height: 2em;
+      }
+    
+      .card4 h4{
+        font-size: 25px;
+        font-weight: 300;
+        
+      }
+       
+    
+    
+       .card5{
+        background: rgb(210, 212, 221);
+        height: 300px;
+        padding: 20px;
+        
+        
+       }
+    
+       .card5 h3{
+         position: relative;
+         font-size: 40px 
+       }
+    
+    
+       .card6{
+          color: white;
+          height: 300px;
+      }
+    
+      .card6 p{
+        font-size: 15px;
+        line-height: 2em;
+      }
+    
+      .card6 h4{
+        font-size: 25px;
+        font-weight: 300;
+      }
+    
+    
+    
+    
+    
+    
+    .cards {
+      margin: auto;
+      display: grid;
+      grid-gap: 0.5em;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    }
+    
+    .card-1 {
+      color: white;
+      padding: 1rem;
+      height: 17rem;
+      width: 17rem;
+      margin: 0px;
+      background-color: rgb(0, 0, 0);  
+    }
+    
+    .card-1 img {
+      position: relative;
+      padding-top: 75px;
+      width: 80px ;
+      display: block;
+      margin: auto; }
+    
+    
+      .cap h2, .cap1 h2, .cap2 h2, .cap3 h2{
+        font-size:20px;
+        color:#2356a8;
+        text-align: center;
+        line-height: 1em;
+        }
+        
+         .cap p, .cap1 p, .cap2 p, .cap3 p {
+        font-size: 19px, 2vw;  
+        text-align: center;
+        line-height: 1.5em;
+        color: rgb(100, 100, 100);
+        padding: 10px;
+        }
+    
+        .cap, .cap1, .cap2, .cap3{
+          position: relative;
+          width: 303px;
+          box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+          border-radius: 5px;
+          -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+    
+    
+        .cap::after, .cap1::after, .cap2::after, .cap3::after{
+          width: 300px;
+          position: absolute;
+          opacity: 0;
+          box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+          border-radius: 5px;
+          -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+    
+    
+    
+        .cap:hover, .cap1:hover, .cap2:hover, .cap3:hover {
+          -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+        }
+        
+        .cap:hover::after, .cap1:hover::after, .cap2:hover::after, .cap3:hover::after {
+            opacity: 1;
+        }
+        
+    
+      
+    
+    
+    
+    
+      
+    
+        .card7{ 
+          color: white;
+          height: 300px;
+        }
+    
+        .card8{
+          background: rgb(210, 212, 221);
+          height: 300px;
+        }
+    
+        .card11{
+           color: white;
+           height: 600px;
+          }
+    
+       .card11 h2{
+    text-align: left;
+    font-weight: 300;
+    height: 400px;
+    color: white;
+       }
+       
+    
+    
+      
+    .card12{
+      height: 600px;
+      overflow-x: scroll;
+    }
+    
+    
+     
+    
+    
+    
+    
+    
+  
+  
+   
+    
+    
+    

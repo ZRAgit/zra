@@ -1,0 +1,221 @@
+/**
+ * * Title: about.component.css
+ * Author: Larry Ohaka
+ * Date: 6/25/21
+ * Description: Navigation and Layout
+ */
+
+  
+ h1 {
+    color: #ffffff ;
+    text-transform: uppercase;
+    letter-spacing: .5vw;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 300;
+    span {
+      display: block;
+      font-size: 4vw;
+      letter-spacing:1rem;
+      top: 1;
+    }
+  }
+  
+  h3 {
+    color: #114999 ;
+    text-transform: uppercase;
+    letter-spacing: .1vw;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 300;
+    font-size: 3vh;
+  }
+  
+  h2{
+    font-size: 20px 2vw;
+    font-weight: 300;
+    text-align: left;
+    color: rgb(255, 255, 255);
+
+  }
+
+  
+  
+  p {
+    font-weight: 300;
+    text-align: center;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    
+  }
+  
+  b{
+      color: #114999;
+  }
+  
+  
+  
+  
+ 
+
+  
+
+
+
+  /*Main*/
+ 
+  .info{
+    min-width:70px;
+    max-width: 69%;
+    max-height: 100%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+
+
+b{
+    color: #114999;
+}
+
+
+/*WHAT MAKES ZRA A GREAT PLACE TO WORK?*/
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 3fr) );
+    min-width:200px;
+max-width: 60%;
+max-height: 100%;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+grid-gap: 4em;
+margin-top: 100px;
+      margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  
+
+  
+    .card h2, .card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2{
+      font-size:20px;
+      color:#2356a8;
+      text-align: center;
+      line-height: 1em;
+      }
+      
+       .card  p, .card1  p, .card2  p, .card3  p , .card4  p, .card5  p {
+      font-size: 19px, 2vw;  
+      text-align: center;
+      line-height: 1.5em;
+      color: rgb(100, 100, 100);
+      padding: 10px;
+      }
+  
+      .card  , .card1  , .card2  , .card3  , .card4  , .card5  {
+          padding: 40px;
+        position: relative;
+        max-width: 300px;
+        height: 220px;
+        box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+      }
+  
+  
+     
+      
+
+
+
+
+  /*Careers Pop-Up*/
+
+  .careers {
+      
+      margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .card-1 {
+    color: white;
+    padding: 1rem;
+    height: 17rem;
+    width: 17rem;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);  
+  }
+  
+  .card-1 img {
+    position: relative;
+    padding-top: 75px;
+    width: 80px ;
+    display: block;
+    margin: auto; }
+  
+  
+    .cap h2, .cap1 h2, .cap2 h2, .cap3 h2{
+      font-size:20px;
+      color:#2356a8;
+      text-align: center;
+      line-height: 1em;
+      }
+      
+       .cap p, .cap1 p, .cap2 p, .cap3 p {
+      font-size: 19px, 2vw;  
+      text-align: center;
+      line-height: 1.5em;
+      color: rgb(100, 100, 100);
+      padding: 10px;
+      }
+  
+      .cap, .cap1, .cap2, .cap3{
+        position: relative;
+        width: 303px;
+        box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+      }
+  
+  
+      .cap::after, .cap1::after, .cap2::after, .cap3::after{
+        width: 300px;
+        position: absolute;
+        opacity: 0;
+        box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+      }
+  
+  
+  
+      .cap:hover, .cap1:hover, .cap2:hover, .cap3:hover {
+        -webkit-transform: scale(1.05, 1.05);
+        transform: scale(1.05, 1.05);
+      }
+      
+      .cap:hover::after, .cap1:hover::after, .cap2:hover::after, .cap3:hover::after {
+          opacity: 1;
+      }
+      
+
+
+  
+  

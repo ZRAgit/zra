@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  app.component.ts
+; Author: Angular CLI
+; Date: 17 Sep 2021
+; Description: App component file
+;===========================================
+*/
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +16,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'zra';
+  assignment: string;
+
+  constructor() {
+    this.assignment = 'Welcome to ZRA'
+  }
 }

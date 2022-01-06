@@ -1,0 +1,92 @@
+/**
+ * * Title: about.component.css
+ * Author: Larry Ohaka
+ * Date: 6/25/21
+ * Description: Navigation and Layout
+ */
+
+
+  
+  h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .5vw;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 300;
+    span {
+      display: block;
+      font-size: 4vw;
+      letter-spacing:1rem;
+      top: 1;
+    }
+  }
+  
+  h3 {
+    color: rgb(80, 80, 80);
+    font-weight: 300;
+    text-align: left;
+    font-size: 50px ; 
+  }
+  
+  h2{
+    font-size: 20px 2vw;
+    font-weight: 300;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    span {
+        display: block;
+        font-size: 17px;
+        
+        top: 1;
+      }
+  }
+
+  
+  
+  p {
+    font-weight: 300;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    
+  }
+  
+  
+  
+  
+  
+
+
+ 
+ 
+
+ 
+
+
+  /*Main*/
+ 
+  .info{
+    min-width:70px;
+    max-width: 69%;
+    max-height: 100%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45vh;
+  }
+  
+
+
+b{
+    color: #114999;
+}
+
+
+  
+  

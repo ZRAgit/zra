@@ -1,0 +1,144 @@
+/**
+ * * Title: about.component.css
+ * Author: Larry Ohaka
+ * Date: 6/25/21
+ * Description: Navigation and Layout
+ */
+
+  
+ h1 {
+    color: #ffffff ;
+    text-transform: uppercase;
+    letter-spacing: .5vw;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 300;
+    span {
+      display: block;
+      font-size: 4vw;
+      letter-spacing:1rem;
+      top: 1;
+    }
+  }
+  
+  h3 {
+    color: #114999 ;
+    text-transform: uppercase;
+    letter-spacing: .1vw;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 300;
+    font-size: 3vh;
+  }
+  
+  h2{
+    font-size: 20px 2vw;
+    font-weight: 300;
+    text-align: left;
+    color: rgb(255, 255, 255);
+
+  }
+
+  
+  
+  p {
+    font-weight: 300;
+    text-align: center;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    
+  }
+  
+  b{
+      color: #114999;
+  }
+  
+  
+  
+  
+ 
+
+
+
+
+
+  /*Main*/
+ 
+  main{
+    min-width:70px;
+    max-width: 80%;
+    height: 100%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100vh
+ 
+  }
+  
+
+
+b{
+    color: #114999;
+}
+
+
+/*WHAT MAKES ZRA A GREAT PLACE TO WORK?*/
+.cards {
+display: flex;
+ min-width:200px;
+max-height: 100%;
+grid-gap: 2em;
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+
+  }
+  
+  .card  , .card1  {
+    padding: 20px;
+  position: relative;
+  max-width: 400px;
+  height: 100%;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+  
+
+  
+    .card h2, .card1 h2{
+      font-size:20px;
+      color:#2356a8;
+      text-align: center;
+      line-height: 1em;
+      }
+      
+       .card  p, .card1  p{
+      font-size: 19px, 2vw;  
+      text-align: center;
+      line-height: 1.5em;
+      color: rgb(100, 100, 100);
+      padding: 10px;
+      }
+  
+  
+  
+     
+      
+
+
+
+
+  
+
+
+  
+  

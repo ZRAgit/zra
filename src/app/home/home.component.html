@@ -1,0 +1,494 @@
+<!--
+ * * Title: app.component.html
+ * Author: Larry Ohaka
+ * Date: 6/25/21
+ * Description: Navigation and Layout
+-->
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/scss" href="./home.component.scss">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  
+  <title>ZRA</title>
+</head>
+<!------------------------Body Starts Here!------------------------->
+<body>
+
+  <!--Sidenav-->
+  <div class="sidenav">
+
+  
+  <ul class="nav">
+
+    <li><a routerLink="/about" data-hover="ABOUT">ABOUT</a></li>
+    <li><a routerLink="/team" data-hover="TEAM">TEAM</a></li>
+    <li><a routerLink="/contact" data-hover="CONTACT">CONTACT</a></li>
+    <li><a routerLink="/contract" data-hover="CONTRACTS">CONTRACTS</a></li>
+    <li><a routerLink="/careers" data-hover="CAREERS">CAREERS</a></li>
+  </ul>
+</div>
+
+
+  <header class="video-header">
+
+   <!--video-->
+    <video src="../assets/dotted sphere Comp 1_2.mp4" autoplay loop playsinline muted></video>
+
+<!--Title-->
+    <div class="viewport-header1">
+     
+      <h1>
+         <!--Logo-->
+     <div class="logo1">
+      <a routerLink=""><img src="../assets/ZRA Website 2022-10.png"></a>
+    </div>
+        Explore
+        <span style="font-weight: 100;">ZEICHNER RISK ANALYTICS</span>
+        <br/>
+
+      </h1>
+  
+    </div>
+
+
+      <!--Slideshow-->
+<div class="header-content"> 
+  <h4 class="item-1">Title1
+  <p>This is your last chance. After this, there is no turning back.</p>
+</h4>
+<h4 class="item-2">Title2
+  <p>You take the blue pill - the story ends, you wake up in your bed and believe whatever you want to believe.</p>
+</h4>
+<h4 class="item-3">Title3
+  <p>You take the red pill - you stay in Wonderland and I show you how deep the rabbit-hole goes.</p>
+</h4>
+</div>
+
+ </header>
+
+
+          <!--Button-->
+          <a href="#main" class="btn1 btn-2">
+            <svg>
+              <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+            </svg>Learn More </a>
+
+  <!------------Main section---------->
+ <main id="main">
+
+<!-----------Section 1------------->
+  
+
+    <!--First section-->
+<div class="grid-container1">
+
+
+    <div class="card1"></div>
+
+    <div class="card2"></div>
+
+    <div class="card3" style="background: #114ea3; padding: 30px;">
+      <h4>ABOUT</h4>
+      <p>ZRA is a small business with over 20 years of experience in cybersecurity, risk management, program management, strategic planning, and law and policy.</p>
+      <br/>
+      <br/>
+      <!--Button-->
+      <a routerLink="/about" class="btn btn-1">
+        <svg>
+          <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+        </svg>
+      Learn More
+      </a>
+
+    </div>  
+
+    <div class="card4" style="padding: 20px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../assets/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg); background-repeat: no-repeat; background-size: cover">
+      <h4>Advancing Towards Inclusion </h4>
+      <p>ZRA is a small business with over 20 years of experience in cybersecurity, risk management, program management, strategic planning, and law and policy.</p>
+      <!--Button-->
+      <a href="#popup7" class="btn btn-1">
+        <svg>
+          <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+        </svg>
+      Learn More
+      </a>
+    </div>
+
+    <div class="card5"style="background: rgb(210, 212, 221); padding-right: 20px; padding-left: 20px;">
+      <mat-icon style="float:right; transform:  rotate(180deg) scale(2); color: #2356a8">keyboard_backspace</mat-icon>
+      <h3 style="text-align: center;">ITEMS OF <br/> INTEREST</h3>
+       <mat-icon style="float: left; bottom: 0; transform:  scale(2); color: #2356a8">keyboard_backspace</mat-icon>
+       
+      </div>
+
+    <div class="card6" style="padding: 20px; background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../assets/nasa-Q1p7bh3SHj8-unsplash.jpg); background-repeat: no-repeat; background-size: cover">
+      <h4 id="pilot">Pilot Process</h4>
+      <p>ZRA is a small business with over 20 years of experience in cybersecurity, risk management, program management, strategic planning, and law and policy.</p>
+      <!--Button-->
+      <a href="#popup6" class="btn btn-1">
+        <svg>
+          <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+        </svg>
+      Learn More
+      </a>
+    </div>
+
+
+</div>
+
+
+  <br/>
+   
+  <!-----------Section 2------------->
+
+  <section class="sec-2">
+
+    <h1 style="color:#2356a8;" id="capabilities">CAPABILITIES</h1>
+    <p>ZRA has significant experience and deep capability in building and managing large and complex programs. Our capabilities range from developing the foundational building blocks for a new program to managing a fully developed program office. Our comprehensive focus on governance, inter-/intra-agency processes, policy, political institutions, and engagement strategies provides a uniquely comprehensive offering for our customers.</p>
+    <h4 >Our key capability areas include:</h4>
+
+
+<!--Capability Cards start here-->
+    <div class="cards">
+
+       <!--Card 1-->
+       <a href="#popup1">
+      <div class="cap">
+      <div class="card-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../assets/george-prentzas-SRFG7iwktDk-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;"><img src="../assets/ZRA Website 2022-19.png" style="width: 57px;"></div>
+      <h2>Cybersecurity Consulting for Executives</h2>
+      <p>ZRA has extensive expertise covering data management and security directly with Chief Executive Officers (CEOs) from mid-to-large, market-cap ...</p>
+      </div>
+    </a>
+
+<!--Card 2-->
+<a href="#popup2">
+      <div class="cap1">
+      <div class="card-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../assets/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);background-repeat: no-repeat;
+      background-size: cover;"><img src="../assets/ZRA Website 2022-17.png"></div>
+       <h2>Cyber Security and IT Program Support</h2>
+       <p>ZRA provides exceptional program support for optimizing organizational performance as well as specialized support for developing ...</p>
+</div>
+</a>
+
+<!--Card 3-->
+<a href="#popup3">
+<div class="cap2">
+      <div class="card-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../assets/maximalfocus-HakTxidk36I-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;"><img src="../assets/ZRA Website 2022-18.png"></div>
+      <h2>Risk Management</h2>
+      <p>At our very core, ZRA is focused on developing effective and efficient risk management frameworks that provide executives and ...</p>
+</div>
+</a>
+
+<!--Card 4-->
+<a href="#popup4">
+  <div class="cap3">
+    <div class="card-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../assets/sigmund-Fa9b57hffnM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;"><img src="../assets/ZRA Website 2022-20.png"></div>
+     <h2>Education & Training</h2>
+     <p>ZRA offers an interdisciplinary approach to teaching and learning about cybersecurity. ZRA education materials provide a highly ...</p>
+     </div>
+    </a>
+
+    </div>
+
+  </section>
+
+<!-----------Pop-up Section------------->
+
+
+<!--Cybersecurity Consulting for Executives-->
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Cybersecurity Consulting for Executives</h2>
+		<a class="close" href="#capabilities">&times;</a>
+		<div class="content">
+      
+			<p>
+        ZRA has extensive expertise covering data management and security directly with Chief Executive Officers (CEOs) from mid-to-large, market-cap public companies that operate globally. Experience covers the development of surveys and the collection and analysis of data on data management and security topics. ZRA has published findings derived from working with CEOs, including strategic risk frameworks, collections of regulatory materials, and risk checklists.</p>
+
+<p>ZRA has expertise performing gap analyses and security surveys of privacy and security programs with CEOs, Chief Information Officers, and Chief Security Officers of public, global companies. The experience with gap analyses involves the preparation of findings and recommendations.</p>
+
+<b>Board and CEO-Level Risk Management Support</b>
+
+
+  <ul>Risk Assessment Management Frameworks</ul>
+  <ul>Corporate Governance for IT and Cyber Risk</ul>
+  <ul>Risk Assessment and Mapping</ul>
+  <ul>Policy, Legislative, and Regulatory Analysis</ul>
+  <ul>Compliance and Audit Frameworks</ul>
+  <ul>Surveys and Risk Determination</ul>
+  <ul>Director and Officer due diligence requirements for security and risk management</ul>
+  <ul>Evolving developments in operational risk management</ul>
+
+
+<b>Cybersecurity Consulting</b>
+
+
+  <ul>Executive Level Advisory and Assistance Support</ul>
+  <ul>Cyber Security Risk Assessment</ul>
+  <ul>Audit and Compliance Program Development and Execution</ul>
+  <ul>Cybersecurity Program Oversight and Management</ul>
+  <ul>Security and privacy assessments in accordance with Federal regulations as well as state statutes and administrative guidelines</ul>
+  <ul>Vendor management standards and guidelines for IT outsourcing</ul>
+  <ul>Process Improvement and Lean Six Sigma Support, Training and Implementation</ul>
+
+      
+		</div>
+	</div>
+</div>
+
+
+<!--Cyber Security and IT Program Support-->
+<div id="popup2" class="overlay">
+	<div class="popup">
+		<h2>Cyber Security and IT Program Support</h2>
+		<a class="close" href="#capabilities">&times;</a>
+		<div class="content">
+			<p>
+        ZRA provides exceptional program support for optimizing organizational performance as well as specialized support for developing long-term business strategy and improvements. Because of our combined administrative, legal, technical, and financial expertise, we offer superior, multi-disciplined support. Our methodology preserves the rigor required to keep a project on schedule, within budget, and in line with the expectations of project stakeholders.  </p>
+
+<b>ZRA's key areas of Cybersecurity & IT Program Support expertise include:</b>
+
+  <ul>Program Management Office Support</ul>
+  <ul>Strategy Development and Execution</ul>
+  <ul>Capital Planning and Investment Control</ul>
+  <ul>Workforce Planning and Human Capital Management</ul>
+  <ul>Budget Formulation and Execution</ul>
+  <ul>Information Sharing and Collaboration</ul>
+  <ul>Organizational Change Management</ul>
+  <ul>Process Improvement</ul>
+
+    
+		</div>
+	</div>
+</div>
+
+
+<!--Risk Managment-->
+<div id="popup3" class="overlay">
+	<div class="popup">
+		<h2>Risk Management</h2>
+		<a class="close" href="#capabilities">&times;</a>
+		<div class="content">
+			<p>
+        At our very core, ZRA is focused on developing effective and efficient risk management frameworks that provide executives and program managers with the capability to eliminate, mitigate, transfer, or accept risk. This requires approaches that utilize both quantitative and qualitative methods of risk management, to include the development of algorithms to automate the quantification of risk.
+      </p>
+		</div>
+	</div>
+</div>
+
+
+<!--Education and Training-->
+  <div id="popup4" class="overlay">
+    <div class="popup">
+      <h2>Education & Training</h2>
+      <a class="close" href="#capabilities">&times;</a>
+      <div class="content">
+        <p>ZRA offers an interdisciplinary approach to teaching and learning about cybersecurity. ZRA education materials provide a highly sophisticated, cross-functional view into a wide-range of cybersecurity issues. We maintain a direct pulse on cybersecurity-related congressional, executive, legal, and regulatory trends and policies, which enables us to provide dynamic cybersecurity training in a rapidly changing environment.</p>
+
+<p>ZRA hosts seminars and conferences on cyber topics with leaders in the community to discuss the best course of action to solve the most challenging cyber issues. ZRA gathers experts from across the cyber community to include Fortune 200 corporate executives, government leaders, and distinguished members of the R&D and venture capital community.</p>
+
+<b>Curricula and Course Material</b>
+
+<p>ZRA provides custom curriculum for government and private customers, with an emphasis on cyber risk management and analysis. Our course material includes student and instructor academic packages focused on the fundamentals of cybersecurity. Subject matter experts in their respective fields draw upon the leading literature currently available to continuously improve the course materials.</p>
+
+<p>Our course instructors are leading experts in cybersecurity from risk management principles to the law and policy aspects of the discipline. Instructors bring over 20 years of public and private experience to the classroom. The instructors' first-hand experience dealing with crises facing the Nation's critical infrastructure coupled with managerial practice provides a cutting-edge perspective of cybersecurity.</p>
+
+<b>ZRA has developed a suite of education and training materials to include:</b>
+
+<ul>Customized curricula</ul>
+<ul>Classroom training sessions</ul>
+<ul>Case studies</ul>
+<ul>Knowledge assessments</ul>
+<ul>Videos and Interactive Media</ul>
+<ul>Whitepapers and Articles</ul>
+<ul>Textbooks</ul>
+<ul>Detailed Research and Studies</ul>
+
+
+<b>Seminars and Conferences</b>
+
+<p>ZRA also has the capability to develop, host, or manage cyber security-related seminars and conferences such as:</p>
+
+<ul>Workshops and Case studies</ul>
+<ul>Tabletop/Panel Facilitation</ul>
+<ul>Conference Development and Execution</ul>
+
+
+<b>Coaching, Training, and Mentoring</b>
+
+<p>Our capabilities can also be used to provide innovative, and efficient coaching and training for executives in the following areas of expertise:</p>
+
+<ul>Critical Infrastructure</ul>
+<ul>Senior Executives and Boards of Fortune 500 companies</ul>
+<ul>Venture Capitalist and Startups</ul>
+<ul>SES/GS-15 Government Leaders Research and Development Executives</ul>
+
+      </div>
+    </div>
+  </div>
+
+
+<!--Capabilities Pop-up-->
+  <div id="popup6" class="overlay">
+    <div class="popup1">
+      <h2>Capabilities</h2>
+      <a class="close" href="#main">&times;</a>
+        
+      <div class="img-magnifier-container">
+        <img id="myimage" src="../assets/pilot process graphic-04.png" width="600" height="100%">
+      </div> 
+        <p>
+          At our very core, ZRA is focused on developing effective and efficient risk management frameworks that provide executives and program managers with the capability to eliminate, mitigate, transfer, or accept risk. This requires approaches that utilize both quantitative and qualitative methods of risk management, to include the development of algorithms to automate the quantification of risk.
+        </p>
+      
+    </div>
+  </div>
+
+
+  <!--Risk Managment-->
+<div id="popup7" class="overlay">
+	<div class="popup">
+		<h2>Mission Towards Inclusion</h2>
+		<a class="close" href="#main">&times;</a>
+		<div class="content">
+			<p>
+        ZRA must embrace an inclusive, truly equitable workplace that fosters diverse perspectives if we want to accelerate innovation, strengthen resilience, and enable the firm’s purpose to unlock the potential of those who advance the world.</p>
+
+       <p>ZRA’s inaugural diversity, equity, and inclusion (DEI) report is an effort to openly and transparently share a snapshot of the progress we’ve made—where we are at this point in the journey and where we’ve committed to go. Our leaders, staff, and business partners are energized to make a real and sustained difference in DEI at BCG.</p> 
+        
+       <p> We recognize the corporate environment in which we play a critical role. Our diversity, equity, and inclusion report is a statement of our public commitment to transparency, an invitation for continued dialogue, and the standard by which we will be held accountable as our DEI journey continues.
+      </p>
+		</div>
+	</div>
+</div>
+
+
+  <br/>
+
+<!-----------Section 3------------->
+ 
+<section> 
+
+    <div class="grid-container">
+
+      <div class="card7" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../assets/charles-deluvio-FdDkfYFHqe4-unsplash.jpg); background-repeat: no-repeat;background-size: cover;">
+        <div class="twtr">
+          <a class="twitter-timeline" data-lang="en" data-width="380" data-height="300" data-theme="dark" href="https://twitter.com/ZeichnerRisk?ref_src=twsrc%5Etfw" >Tweets by ZeichnerRisk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+
+      <div class="card8" style="background: rgb(210, 212, 221); padding-right: 30px; padding-left: 30px;">
+        <h3 style="float: right;">ZRA NEWS</h3>
+        <mat-icon style="float: left; transform:  scale(2); color: #2356a8">keyboard_backspace</mat-icon>
+      </div>
+
+      <div class="card9"></div>  
+
+      <div class="card10"></div>
+
+      <div class="card11" style="padding: 20px; background: linear-gradient(#114a99f8,#114a9993 ), url(../assets/fly-d-3f_knnjHFIg-unsplash.jpg);background-size: cover; "> 
+        <h2>STATE OF CYBERSECURITY 2022</h2> 
+        <mat-icon style="transform: rotate(180deg)  scale(2); color:#ffffff">keyboard_backspace</mat-icon>
+      </div>
+
+      <div class="card12">
+      
+<!--News Articles-->
+<section class="recentNews">
+	<div class="container">
+		<div class="row">
+		<!--News Articles #1-->
+			<div class="ct-blog col-sm-6 col-md-4">
+				<div class="inner">
+					<div class="fauxcrop">
+						<a href="https://www.securitymagazine.com/articles/96781-top-15-cybersecurity-predictions-for-2022"><img alt="News Entry" src="../assets/Screen Shot 2021-12-29 at 11.04.41 AM.png"></a>
+					</div>
+					<div class="ct-blog-content">
+						<div class="ct-blog-date">
+							<span>December</span><strong>22</strong>
+						</div>
+						<h3 class="ct-blog-header">
+							Top 15 cybersecurity predictions for 2022
+						</h3>
+					</div>
+				</div>
+			</div>
+<!--News Articles #2-->
+			<div class="ct-blog col-sm-6 col-md-4">
+				<div class="inner">
+					<div class="fauxcrop">
+						<a href="https://www.tripwire.com/state-of-security/featured/cybersecurity-in-2022-and-beyond/"><img alt="News Entry" src="../assets/Screen Shot 2021-12-29 at 11.08.15 AM.png"></a>
+					</div>
+					<div class="ct-blog-content">
+						<div class="ct-blog-date">
+							<span>December</span><strong>21</strong>
+						</div>
+						<h3 class="ct-blog-header">
+							Cybersecurity in 2022 and Beyond
+						</h3>
+					</div>
+				</div>
+			</div>
+<!--News Articles #3-->
+			<div class="ct-blog col-sm-6 col-md-4">
+				<div class="inner">
+					<div class="fauxcrop">
+						<a href="https://www.cybercom.mil/Media/News/Article/2861207/dept-of-defenses-largest-multinational-cyber-exercise-yet-focuses-on-collective/"><img alt="News Entry" src="../assets/Screen Shot 2021-12-29 at 11.12.04 AM.png"></a>
+					</div>
+					<div class="ct-blog-content">
+						<div class="ct-blog-date">
+							<span>December</span><strong>3</strong>
+						</div>
+						<h3 class="ct-blog-header">
+							Dept. of Defense’s largest multinational cyber exercise yet focuses on collective defense
+						</h3>
+					</div>
+				</div>
+			</div>
+<!--NEnd of News Articles-->
+		</div>
+	
+	</div>
+</section>
+
+
+      </div>
+    </div>
+
+  </section>
+  <footer>
+    <div class="social-media">
+     <p>Follow Us |  
+       <img src="../assets/ZRA Website 2022-16.png">
+       <img src="../assets/ZRA Website 2022-15.png">
+     </p>
+    
+ 
+    </div>
+    
+   <p><a href="contact/contact.component.html">Contact </a>    |      <a href="careers/careers.component.html">Careers</a>      |      <a href="about/about.component.html">About</a>     <br>
+   <a>© Copyright 2021 ZRA, All Rights Reserved</a></p>
+ </footer>
+  
+
+ </main>
+
+
+
+
+<!----------------------------Script---------------------------->
+
+
+</body>
+</html>

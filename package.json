@@ -6,10 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "depoly": "gh-pages -d dist"
+    "test": "ng test"
   },
   "private": true,
-  "homepage": "https://zragit.github.io/zra",
   "dependencies": {
     "@angular/animations": "~13.1.0",
     "@angular/common": "~13.1.0",

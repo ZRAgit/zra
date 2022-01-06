@@ -10,7 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { TeamComponent } from './team/team.component';
 import { ErrorComponent } from './error/error.component';
-import {  HttpClientModule} from '@angular/common/http';
+
 
 import { MessagesModule } from 'primeng/messages';
 import { MessageModule } from 'primeng/message';
@@ -58,7 +58,6 @@ import { HomeComponent } from './home/home.component';
     MatTableModule,
     DragDropModule,
     MatCardModule,
-    HttpClientModule,
     MatIconModule,
     RouterModule,
     FlexLayoutModule,

@@ -70,7 +70,7 @@
   main{
     min-width:70px;
     max-width: 80%;
-    height: 100%;
+    height: 40%;
     top:0;
     bottom: 0;
     left: 0;
@@ -88,22 +88,39 @@ b{
 }
 
 
+.info{
+  position: relative;
+  min-width:70px;
+  max-width: 69%;
+  max-height: 100%;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 2vh;
+
+border-radius: 5px;
+}
+
+
 /*WHAT MAKES ZRA A GREAT PLACE TO WORK?*/
 .cards {
 display: flex;
- min-width:200px;
-max-height: 100%;
-grid-gap: 2em;
-margin-top: 100px;
 margin-left: auto;
 margin-right: auto;
-
   }
   
+
+
+  .card{
+    margin-right: 3em;
+  }
+
   .card  , .card1  {
-    padding: 20px;
+    min-width: 300px;
+  padding: 20px;
   position: relative;
-  max-width: 400px;
   height: 100%;
   box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -132,9 +149,7 @@ margin-right: auto;
   
   
      
-      
-
-
+  
 
 
   

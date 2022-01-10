@@ -156,12 +156,15 @@ html, body {
     padding-top: 10px;
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
+    
   }
   
   .nav {
     text-align: left;
     text-transform: uppercase;
     font-weight: 300;
+  
+    
   }
   
   .nav  * {
@@ -176,6 +179,7 @@ html, body {
     margin: 2px;
     left: 0;
     font-size: 1vw;
+    
   }
 
   .nav  a {

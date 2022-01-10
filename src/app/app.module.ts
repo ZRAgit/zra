@@ -31,6 +31,7 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { ContractComponent } from './contract/contract.component';
 import { HomeComponent } from './home/home.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -65,7 +66,8 @@ import { HomeComponent } from './home/home.component';
     FormsModule,
     AppRoutingModule,
     MatToolbarModule,
-    GoogleMapsModule
+    GoogleMapsModule,
+    NgbModule
    
   ],
   providers: [],

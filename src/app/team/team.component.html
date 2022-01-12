@@ -4,8 +4,7 @@
  * Date: 6/25/21
  * Description: Navigation and Layout
 -->
-<!DOCTYPE html>
-<html lang="en">
+
 
 <head>
   <meta charset="UTF-8">
@@ -81,7 +80,7 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod repudiandae fugit magnam consectetur...</p>
 
     
-        <a href="#team1" class="btn btn-1">
+        <a [routerLink]="['./']" fragment="lee"  class="btn3 btn-3" target="_self">
             <svg>
               <rect x="0" y="0" fill="none" width="100%" height="100%"/>
             </svg>
@@ -96,7 +95,7 @@
         <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod repudiandae fugit magnam consectetur...
         </p>
         
-        <a href="#lindsay" class="btn btn-1">
+        <a href="#lindsay" target="_self" class="btn3 btn-3">
             <svg>
               <rect x="0" y="0" fill="none" width="100%" height="100%"/>
             </svg>
@@ -118,7 +117,7 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod repudiandae fugit magnam consectetur...
         </p>
      
-        <a href="#joe" class="btn btn-1">
+        <a href="#joe" target="_self" class="btn3 btn-3">
             <svg>
               <rect x="0" y="0" fill="none" width="100%" height="100%"/>
             </svg>
@@ -132,7 +131,7 @@
         <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod repudiandae fugit magnam consectetur...
         </p>
         
-        <a href="#rory" class="btn btn-1">
+        <a href="#rory" target="_self" class="btn3 btn-3">
             <svg>
               <rect x="0" y="0" fill="none" width="100%" height="100%"/>
             </svg>
@@ -151,10 +150,10 @@
     <div style="background-image: url('assets/Screen Shot 2021-12-20 at 3.55.53 PM.png');"></div>
     
     <div style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod repudiandae fugit magnam consectetur...
+        <p id="team1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod repudiandae fugit magnam consectetur...
         </p>
      
-        <a href="#jason" class="btn btn-1">
+        <a href="#jason" target="_self" class="btn3 btn-3">
             <svg>
               <rect x="0" y="0" fill="none" width="100%" height="100%"/>
             </svg>
@@ -177,10 +176,10 @@
 
  <!--Lee Zeichner-->
 
- <div id="team1" class="overlay-1">
-	<div class="popup-1">
+ <div id="lee" class="overlay">
+	<div class="popup">
 		<h2>Lee Zeichner</h2>
-		<a class="closed" href="#name">&times;</a>
+		<a class="close" href="#">&times;</a>
 		<div class="content">
 			<p>
                 Lee M. Zeichner is the Founder and President of Zeichner Risk Analytics. Since his service as senior counsel to the President's Commission on Critical Infrastructure Protection from 1996-1998, he has led development of cybersecurity policy and operations for both leading public and private sector clients. Mr. Zeichner has published extensively on multiple aspects of cybersecurity law and is the author of Cyber Security & Corporate Liability, a guide for corporate counsel on cybersecurity and risk management, published by LexisNexis Publishing in 2001. Mr. Zeichner is authoring his sixth update of the book, scheduled for release in 2014.</p>
@@ -221,7 +220,7 @@
 
 
 </body>
-</html>
+
 
 
 

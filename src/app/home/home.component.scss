@@ -129,27 +129,30 @@
     
     .card1{
       background: rgb(255, 255, 255);
+      height: 0px;
+      visibility: hidden;
      }
     
      .card2{
       background: rgb(255, 255, 255);
+      height: 0px;
+      visibility: hidden;
      }
     
      .card3{
       color: white;
-      height: 500px;
+      height: 300px;
      }
     
      .card3 p{
       font-size: 15px;
-      line-height: 2em;
+      line-height: 1.5em;
      }
   
     
      .card3 h4{
        font-weight: 300;
        color: white;
-       align-content: center;
        font-size: 40px;
      }
     
@@ -163,7 +166,7 @@
     
        .card4 p{
         font-size: 15px;
-        line-height: 2em;
+        line-height: 1.5em;
       }
     
       .card4 h4{
@@ -195,7 +198,7 @@
     
       .card6 p{
         font-size: 15px;
-        line-height: 2em;
+        line-height: 1.5em;
       }
     
       .card6 h4{
@@ -211,7 +214,7 @@
     .cards {
       margin: auto;
       display: grid;
-      grid-gap: 0.5em;
+      grid-gap: 0em;
       grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
     }
     

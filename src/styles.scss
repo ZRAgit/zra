@@ -1,3 +1,5 @@
+
+
 /* You can add global styles to this file, and also import other style files */
 /**
  * * Title: styles.scss
@@ -220,8 +222,6 @@ html, body {
     text-align: left;
     text-transform: uppercase;
     font-weight: 300;
-  
-    
   }
   
   .nav  * {
@@ -235,7 +235,7 @@ html, body {
     overflow: hidden;
     margin: 2px;
     left: 0;
-    font-size: 1vw;
+    font-size: 2vw;
     
   }
 
@@ -557,7 +557,7 @@ html, body {
   
   .grid-container1 {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px,  2fr) );
+    grid-template-columns: repeat(auto-fill, minmax(350px,  3fr) );
     min-width:350px;
 max-width: 50vw;
 max-height: 100%;
@@ -663,3 +663,7 @@ footer {
   footer a{
     text-decoration: none;
   }
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

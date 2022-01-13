@@ -71,72 +71,233 @@
 <!--Team grid-->
 <div class="team-grid">
 
-<!--Lee Zeichner-->
-    <div style=" background-color: #114999;" id="name" ><h2 id="team1">Lee Zeichner<span style="font-weight: 100;">President</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+<!----------------Lee Zeichner------------------->
+    <div style=" background-color: #114999;" id="name" ><h2>Lee Zeichner<span style="font-weight: 100;">President</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
 
     <div style="background-image: url('assets/ZRA_profile picture_Lee-11.png');"></div>
 
-    <div style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%); ">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod repudiandae fugit magnam consectetur...</p>
+    <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%); ">
+        <p>Lee M. Zeichner is the Founder and President of Zeichner Risk Analytics. Since his service as senior counsel to the President's Commission on Critical Infrastructure Protection from 1996-1998, he has led development of cybersecurity policy and ...</p>
+<!--BUTTON-->
+          <button (click)="show(1)" class="btn3 btn-3"> <svg>
+            <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+          </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 1">
+  <div class="uc-m-content">
+    <div class="uc-m-header">
+      <span class="material-icons" (click)="close()">
+        close
+      </span>
+      <h4>Lee Zeichner</h4>
+    </div>
+    <div class="uc-m-body">
+      <p>
+        Lee M. Zeichner is the Founder and President of Zeichner Risk Analytics. Since his service as senior counsel to the President's Commission on Critical Infrastructure Protection from 1996-1998, he has led development of cybersecurity policy and operations for both leading public and private sector clients. Mr. Zeichner has published extensively on multiple aspects of cybersecurity law and is the author of Cyber Security & Corporate Liability, a guide for corporate counsel on cybersecurity and risk management, published by LexisNexis Publishing in 2001. Mr. Zeichner is authoring his sixth update of the book, scheduled for release in 2014.</p>
 
-    
-        <a [routerLink]="['./']" fragment="lee"  class="btn3 btn-3" target="_self">
-            <svg>
-              <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-            </svg>
-          Read More
-          </a>
-    
+      <p>
+        Mr. Zeichner currently consults on cybersecurity issues for the Department of Homeland Security, and has performed multiple risk assessments, including a review of the Executive Office of the President and other Federal Departments. Mr. Zeichner promotes cybersecurity as a member of the American Bar Association's Standing Committee on Law and National Security, where he has served since 1998.
+      </p> 
+        
+        <p>
+            Mr. Zeichner is a graduate of Georgetown University Law Center. He graduated from the University of Florida (Phi Beta Kappa) and received his M.A. in East Asian Studies from Stanford University. Mr. Zeichner is a member of multiple bar associations, including the Florida and DC Bars, the Court of International Trade, and the Court of Appeals for the Federal Circuit. Mr. Zeichner speaks Mandarin Chinese.
+
+        </p>
+    </div>
+  </div>
+</div>
     </div>
 
 
-    <!--Lindsay Gold-->
-    <div style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(-90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
-        <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod repudiandae fugit magnam consectetur...
+    <!-----------Lindsay Gold------------->
+    <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(-90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+        <p >Lindsay Gold serves as the Executive Vice President at Zeichner Risk Analytics (ZRA) and oversees the public and private sector practice. Mrs. Gold focuses on cybersecurity strategy, operations, engineering, policy, and risk communications...
         </p>
         
-        <a href="#lindsay" target="_self" class="btn3 btn-3">
-            <svg>
-              <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-            </svg>
-          Read More
-          </a>
+       <!--BUTTON-->
+       <button (click)="show(2)" class="btn3 btn-3"> <svg>
+        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+      </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 2">
+<div class="uc-m-content">
+<div class="uc-m-header">
+  <span class="material-icons" (click)="close()">
+    close
+  </span>
+  <h4>Lindsay Gold</h4>
+</div>
+<div class="uc-m-body">
+  <p>
+    Lindsay Gold serves as the Executive Vice President at Zeichner Risk Analytics (ZRA) and oversees the public and private sector practice. Mrs. Gold focuses on cybersecurity strategy, operations, engineering, policy, and risk communications and manages engagements with a range of cybersecurity policy stakeholders, including CEO and Boards, senior executives, White House National Security Staff, DHS, and national laboratories.
+
+</p>
+
+  <p>
+    Prior to ZRA, Mrs. Gold was a Senior IT Consultant in the IT Risk and Assurance practice at Ernst & Young (EY).  In addition to serving in EY’s mid-Atlantic practice, Lindsay participated in a firm global rotation program in Melbourne, Australia.  Mrs. Gold focused on the evaluation of IT systems and the mitigation of IT-related business risks, providing both audit and consulting services.  Mrs. Gold led engagement teams to help companies manage their information and technology risk, governance, and regulatory compliance programs. 
+  </p> 
+    
+    <p>
+      Mrs. Gold graduated cum laude from the University of Delaware’s Honors Program with a bachelor’s in Management and Operations Management and dual minors in International Business and Management Information Systems. Mrs. Gold is certified Six Sigma Black Belt.
+
+    </p>
+</div>
+</div>
+</div>
     </div>
 
     <div style="background-image: url('assets/ZRA_profile picture_Lindsay-22.png');"></div>
 
     <div style=" background-color: #114999;" id="name" ><h2>Lindsay Gold<span style="font-weight: 100;">Executive Vice President</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
-    
 
-    <!--Joe-->
-    <div style=" background-color: #114999;" id="name" ><h2>Joe Chen<span style="font-weight: 100;">Executive Vice President</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
 
-    <div style="background-image: url('assets/ZRAphoto_Joe.jpg');"></div>
-    
-    <div style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod repudiandae fugit magnam consectetur...
+    <!----------------Morgan------------------->
+    <div style=" background-color: #114999;" id="name" ><h2>Morgan Allen<span style="font-weight: 100;">PMP / Chief Operating Officer and Deputy Security Officer</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+
+    <div style="background-image: url('assets/ZRA_organizational circle chart_graphic-05.png');"></div>
+
+    <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%); ">
+        <p>Morgan Allen, PMP has served as the Chief Operating Officer since 1998, and serves as Assistant Security Officer. In addition to her role in supporting the President, she also assists with office management in the following areas: developing...</p>
+<!--BUTTON-->
+          <button (click)="show(6)" class="btn3 btn-3"> <svg>
+            <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+          </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 6">
+  <div class="uc-m-content">
+    <div class="uc-m-header">
+      <span class="material-icons" (click)="close()">
+        close
+      </span>
+      <h4>Morgan Allen</h4>
+    </div>
+    <div class="uc-m-body">
+      <p>
+        Morgan Allen, PMP has served as the Chief Operating Officer since 1998, and serves as Assistant Security Officer. In addition to her role in supporting the President, she also assists with office management in the following areas: developing and implementing Standard Operating Procedures for employee best practices, maintaining corporate websites and administering corporate email accounts, coordinating and managing corporate telecommunications infrastructure, developing and organizing corporate file system and records, purchasing and installing computer equipment, network equipment, and software, serviced computer and network equipment, and maintaining corporate contacts and calendar databases.</p>
+
+      <p>
+        Ms. Allen manages company finances and assets by providing daily financial analyses, managing corporate bank accounts and finances, and budgeting corporate expenses. She also supports the analyst team with research in legal and regulatory compliance, national security, and privacy.
+      </p> 
+        
+        <p>Morgan has over eleven years of extensive experience in graphic design and desktop publishing, and has produced a wide variety of graphic products including newsletters, business cards, letter heads, training materials, and presentations. She has extensive experience with various platforms and programs including: Microsoft Office, Adobe Creative Suite, and web development programming languages.
         </p>
-     
-        <a href="#joe" target="_self" class="btn3 btn-3">
-            <svg>
-              <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-            </svg>
-          Read More
-          </a>
+
+        <p>
+          Ms. Allen holds a Bachelors of Science in Integrative Studies with a concentration in Life Sciences and is a certified Project Management Professional (PMP) through the Project Management Institute.
+        </p>
+    </div>
+  </div>
+</div>
     </div>
 
 
-      <!--Rory-->
-      <div style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(-90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
-        <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod repudiandae fugit magnam consectetur...
+    <!-----------Julie Addison------------->
+    <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(-90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+        <p >Lindsay Gold serves as the Executive Vice President at Zeichner Risk Analytics (ZRA) and oversees the public and private sector practice. Mrs. Gold focuses on cybersecurity strategy, operations, engineering, policy, and risk communications...
         </p>
         
-        <a href="#rory" target="_self" class="btn3 btn-3">
-            <svg>
-              <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-            </svg>
-          Read More
-          </a>
+       <!--BUTTON-->
+       <button (click)="show(7)" class="btn3 btn-3"> <svg>
+        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+      </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 7">
+<div class="uc-m-content">
+<div class="uc-m-header">
+  <span class="material-icons" (click)="close()">
+    close
+  </span>
+  <h4>Julie Addison</h4>
+</div>
+<div class="uc-m-body">
+  <p>
+    Julie Addison is the Chief Financial Officer at ZRA. Julie's original work with ZRA was with the commissioners and staff at the President's Commission on Critical Infrastructure Protection (PCCIP) in the development of the Legal Authorities Database. During Year 2000 preparations, Julie organized several initiatives as part of ZRA's support for the Cyber Assurance National Information Center. More recently, Julie's work at ZRA has focused on providing financial analysis including working with the President to provide decision support analysis. She conducts financial and business related analyses, leads business improvement initiatives, and directs other projects.
+
+</p>
+
+  <p>
+    Ms. Addison holds a bachelor's degree (1994 magna cum laude) and master's degree (1999 summa cum laude) from George Mason University.
+  </p> 
+    
+</div>
+</div>
+</div>
+    </div>
+
+    <div style="background-image: url('assets/ZRA_organizational circle chart_graphic-06.png');"></div>
+
+    <div style=" background-color: #114999;" id="name" ><h2>Julie Addison<span style="font-weight: 100;">Chief Financial Officer</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+    
+
+    <!-----------------Joe------------------>
+    <div style=" background-color: #114999;" id="name" ><h2>Joe Chen<span style="font-weight: 100;">Senior Associate and Chief Security Officer</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+
+    <div style="background-image: url('assets/ZRAphoto_Joe.jpg');"></div>
+    
+    <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+        <p>Joseph Chen joined ZRA in April 2010 and currently serves as a Senior Associate and Chief Security Officer. Prior to accepting this position, Mr. Chen served in several analyst roles within the National Cyber Security Division. Most recently, he served as an integral member to the Director of Budget...
+        </p>
+     
+       <!--BUTTON-->
+       <button (click)="show(3)" class="btn3 btn-3"> <svg>
+        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+      </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 3">
+<div class="uc-m-content">
+<div class="uc-m-header">
+  <span class="material-icons" (click)="close()">
+    close
+  </span>
+  <h4>Joe Chen</h4>
+</div>
+<div class="uc-m-body">
+  <p>
+    Joseph Chen joined ZRA in April 2010 and currently serves as a Senior Associate and Chief Security Officer. Prior to accepting this position, Mr. Chen served in several analyst roles within the National Cyber Security Division. Most recently, he served as an integral member to the Director of Budget and Finance, and the Chief of Acquisitions. Mr. Chen has taken a significant role in development and implementation of new policies, procedures, processes, tools, and reports for budget, finance, procurement, performance metrics, and strategic planning. He also provided technical support, guidance, and analysis to key decision-makers at NCSD with program development, governmental resource controlling, and reporting responsibilities.
+</p>
+
+  <p>
+    Previous to this, Mr. Chen worked as an Assistant Manager of Coach, Inc., a luxury American leather goods company. While with this company, he assisted in the management of the locations 12-14 hour-per-day multi-shift retail operations; overseeing day-to-day activities in the areas of human resources, scheduling, and budgeting. Mr. Chen developed and implemented processes for smooth and effective flow of responsibility and client experience. He developed strategies to maximize store revenue through the development of detailed financial tools that demonstrated sales trends and helped achieve projected goals.
+  </p> 
+    
+    <p>
+      Joseph Chen graduated from University of Maryland in 2007 with a bachelor's of science in mechanical engineering.
+    </p>
+</div>
+</div>
+</div>
+</div>
+
+
+      <!----------------Rory---------------->
+      <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(-90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+        <p >Rory joined ZRA as a Senior Associate in February 2016. Prior to joining ZRA, Rory most recently worked as a Program Assistant at the Elliott School of International Affairs. Since June 2015, Rory had interned with a risk & security consulting firm, focusing on Enterprise Risk Management....
+        </p>
+        
+       <!--BUTTON-->
+       <button (click)="show(4)" class="btn3 btn-3"> <svg>
+        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+      </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 4">
+<div class="uc-m-content">
+<div class="uc-m-header">
+  <span class="material-icons" (click)="close()">
+    close
+  </span>
+  <h4>Rory Mcguire</h4>
+</div>
+<div class="uc-m-body">
+  <p>
+    Rory joined ZRA as a Senior Associate in February 2016. Prior to joining ZRA, Rory most recently worked as a Program Assistant at the Elliott School of International Affairs. Since June 2015, Rory had interned with a risk & security consulting firm, focusing on Enterprise Risk Management. Previously, he spent time supporting a contract for security monitoring and analysis focused on northern Iraq, as well as interning with the United States Senate Committee on Foreign Relations. Rory also has previous professional experience in the non-profit and marketing sectors.
+</p>
+
+  <p>
+    Rory received his BA in 2009 from Vanderbilt University with a major in Communications Studies. In 2015 he graduated from the Elliott School of International Affairs at The George Washington University with an MA in Security Policy Studies.
+  </p> 
+</div>
+</div>
+</div>
     </div>
 
     <div style="background-image: url('assets/RORY_ZRAphoto.jpg');"></div>
@@ -144,60 +305,426 @@
     <div style=" background-color: #114999;" id="name" ><h2>Rory Mcguire<span style="font-weight: 100;">Senior Associate</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
     
 
-    <!--Jason-->
+    <!-------------------Jason-------------------->
     <div style=" background-color: #114999;" id="name" ><h2>Jason Burke<span style="font-weight: 100;">Senior Associate</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
 
     <div style="background-image: url('assets/Screen Shot 2021-12-20 at 3.55.53 PM.png');"></div>
     
-    <div style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
-        <p id="team1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod repudiandae fugit magnam consectetur...
+    <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+        <p>Jason joined ZRA as an Associate in November 2017. Before joining ZRA, Jason worked in the U.S. House of Representatives as a Legislative Assistant, where he managed an issue portfolio that included defense, foreign affairs, technology, and homeland security...
+        </p>
+     <!--BUTTON-->
+     <button (click)="show(5)" class="btn3 btn-3"> <svg>
+      <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+    </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 5">
+<div class="uc-m-content">
+<div class="uc-m-header">
+<span class="material-icons" (click)="close()">
+  close
+</span>
+<h4>Jason Burke</h4>
+</div>
+<div class="uc-m-body">
+<p>
+  Jason joined ZRA as an Associate in November 2017. Before joining ZRA, Jason worked in the U.S. House of Representatives as a Legislative Assistant, where he managed an issue portfolio that included defense, foreign affairs, technology, and homeland security. In this capacity, he provided legal and policy analysis, drafted legislation, and provided voting recommendations. Before working for Congress, Jason worked as the Cybersecurity Fellow at the Center on National Security at Fordham Law, where he researched and analyzed developments in cybersecurity law and policy.
+</p>
+
+<p>
+  Jason received his B.A. in Philosophy from Washington University in St. Louis in 2008. He received his J.D. from Fordham Law School in 2012. He is licensed to practice law in New York, New Jersey, and the District of Columbia.
+</p> 
+
+<p>
+  Jason is a graduate of the Woodrow Wilson International Center for Scholars’ Cybersecurity Lab and the Partnership for a Secure America’s Congressional Partnership Program. He is currently studying for his M.S. in Cybersecurity in Computer Science at George Washington University’s School of Engineering and Applied Science.
+</p>
+</div>
+</div>
+</div>
+    </div>
+
+
+
+    <!-----------Emily Rosendall------------->
+    <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(-90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+        <p>Emily Rosendall is the Vice President of Cybersecurity Strategy and Public Policy at Zeichner Risk Analytics (ZRA). Ms. Rosendall provides policy, legal, and strategic counsel to private sector and federal government clients on cybersecurity, privacy, and ...
+        </p>
+        
+       <!--BUTTON-->
+       <button (click)="show(8)" class="btn3 btn-3"> <svg>
+        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+      </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 8">
+<div class="uc-m-content">
+<div class="uc-m-header">
+  <span class="material-icons" (click)="close()">
+    close
+  </span>
+  <h4>Emily Rosendall</h4>
+</div>
+<div class="uc-m-body">
+  <p>
+    Emily Rosendall is the Vice President of Cybersecurity Strategy and Public Policy at Zeichner Risk Analytics (ZRA). Ms. Rosendall provides policy, legal, and strategic counsel to private sector and federal government clients on cybersecurity, privacy, and other technology issues.
+</p>
+
+  <p>
+    Previously, Ms. Rosendall served as a counsel for the U.S. House of Representatives Committee on Foreign Affairs. Her policy portfolio included cybersecurity, intellectual property, and trade issues. In that role, she drafted, negotiated, and assisted with the passage of legislation on cybersecurity, counterterrorism, and human rights. While in law school, Ms. Rosendall worked for the City of Coral Gables Office of the City Attorney and the Office of the General Counsel for the University of Miami.
+  </p> 
+    
+    <p>
+      Ms. Rosendall graduated with distinction from the University of Michigan with a B.A. in Political Science. She received her J.D. from the University of Miami School of Law. Ms. Rosendall is licensed to practice law in Florida and the District of Columbia, and she is also a Certified Information Privacy Professional.
+    </p>
+</div>
+</div>
+</div>
+    </div>
+
+    <div style="background-image: url('assets/ZRA_profile picture_Emily-20.png');"></div>
+
+    <div style=" background-color: #114999;" id="name" ><h2>Emily Rosendall<span style="font-weight: 100;">Vice President, Cybersecurity Strategy and Public Policy</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+
+
+    <!----------------Flora Lethbridge-Çejku------------------->
+    <div style=" background-color: #114999;" id="name" ><h2>Flora Lethbridge-Çejku<span style="font-weight: 100;">Senior Associater</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+
+    <div style="background-image: url('assets/ZRA_profile picture_Flora-13.png');"></div>
+
+    <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%); ">
+        <p>Flora Lethbridge-Çejku joined ZRA as an Associate in June 2018. Prior to joining ZRA, she worked as a public opinion research analyst for Lake Research Partners. While there, she worked...</p>
+<!--BUTTON-->
+          <button (click)="show(9)" class="btn3 btn-3"> <svg>
+            <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+          </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 9">
+  <div class="uc-m-content">
+    <div class="uc-m-header">
+      <span class="material-icons" (click)="close()">
+        close
+      </span>
+      <h4>Flora Lethbridge-Çejku</h4>
+    </div>
+    <div class="uc-m-body">
+      <p>
+        Flora Lethbridge-Çejku joined ZRA as an Associate in June 2018. Prior to joining ZRA, she worked as a public opinion research analyst for Lake Research Partners. While there, she worked on quantitative and qualitative research projects helping support different issue advocacy organizations and agencies with messaging campaign development, policy analysis, and political strategy.</p>
+
+      <p>
+        Flora received her MA from the Fletcher School of Law and Diplomacy at Tufts University, focusing on international security studies and conflict negotiation. She received her BA in Political Science with minors in Democracy Studies and Religious Studies from St. Mary’s College of Maryland. Flora is proficient in French with working knowledge of Spanish and Albanian.
+      </p> 
+    </div>
+  </div>
+</div>
+    </div>
+
+
+    <!-----------Dustin Ward-Dahl------------->
+    <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(-90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+        <p >Dustin joined ZRA as an Associate in May 2016. In his current role, he provides wide-ranging support for Federal cybersecurity and national laboratory clients, including the development of program management...
+        </p>
+       <!--BUTTON-->
+       <button (click)="show(10)" class="btn3 btn-3"> <svg>
+        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+      </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 10">
+<div class="uc-m-content">
+<div class="uc-m-header">
+  <span class="material-icons" (click)="close()">
+    close
+  </span>
+  <h4>Dustin Ward-Dahl</h4>
+</div>
+<div class="uc-m-body">
+  <p>
+    Dustin joined ZRA as an Associate in May 2016. In his current role, he provides wide-ranging support for Federal cybersecurity and national laboratory clients, including the development of program management support deliverables, strategic communication documents, and general research products.
+</p>
+
+  <p>
+    Prior to joining ZRA, Dustin honed his research and writing skills as a congressional intern for Congresswoman Suzan DelBene and Congressman Tim Walz, focusing on cybersecurity and transportation policy.
+  </p> 
+  
+  <p>
+    Dustin received his B.A. in 2014 from Christopher Newport University with a major in Political Science and minor in Business Administration.
+  </p>
+</div>
+</div>
+</div>
+    </div>
+
+    <div style="background-image: url('assets/Screen Shot 2021-12-20 at 3.55.28 PM.png');"></div>
+
+    <div style=" background-color: #114999;" id="name" ><h2>Dustin Ward-Dahl<span style="font-weight: 100;">Associate</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+    
+
+    <!--------------Matthew Piscitello-------------->
+    <div style=" background-color: #114999;" id="name" ><h2>Matthew Piscitello<span style="font-weight: 100;">Senior Associate and Chief Security Officer</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+
+    <div style="background-image: url('assets/ZRA_profile picture_Matt-23.png');"></div>
+    
+    <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+        <p>Matthew Piscitello joined ZRA in October 2014 as an Associate. He has taken an interest in cybersecurity from a young age, and previously worked as a freelance cybersecurity journalist, social media manager for SecuritySkeptic, and Member Services Liaison...
         </p>
      
-        <a href="#jason" target="_self" class="btn3 btn-3">
-            <svg>
-              <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-            </svg>
-          Read More
-          </a>
+       <!--BUTTON-->
+       <button (click)="show(11)" class="btn3 btn-3"> <svg>
+        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+      </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 11">
+<div class="uc-m-content">
+<div class="uc-m-header">
+  <span class="material-icons" (click)="close()">
+    close
+  </span>
+  <h4>Matthew Piscitello</h4>
+</div>
+<div class="uc-m-body">
+  <p>
+    Matthew Piscitello joined ZRA in October 2014 as an Associate. He has taken an interest in cybersecurity from a young age, and previously worked as a freelance cybersecurity journalist, social media manager for SecuritySkeptic, and Member Services Liaison for the Anti-Phishing Working Group (APWG).
+</p>
+
+  <p>
+    Matthew graduated from University of South Carolina---Beaufort with a Bachelor of Arts in English with Honors, with a concentration in Creative Writing. He received the Sheila J. Toombs Award for Outstanding English Major, was an active member of Sigma Tau Delta International English Honor Society, Alpha Sigma Sigma chapter and remains an Alumni Epsilon member as of 2014.
+  </p> 
+    
+</div>
+</div>
+</div>
+</div>
+
+
+      <!----------------Larry---------------->
+      <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(-90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+        <p >Rory joined ZRA as a Senior Associate in February 2016. Prior to joining ZRA, Rory most recently worked as a Program Assistant at the Elliott School of International Affairs. Since June 2015, Rory had interned with a risk & security consulting firm, focusing on Enterprise Risk Management....
+        </p>
+        
+       <!--BUTTON-->
+       <button (click)="show(12)" class="btn3 btn-3"> <svg>
+        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+      </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 12">
+<div class="uc-m-content">
+<div class="uc-m-header">
+  <span class="material-icons" (click)="close()">
+    close
+  </span>
+  <h4>Larry Ohaka</h4>
+</div>
+<div class="uc-m-body">
+  <p>
+    Larry Ohaka joined ZRA in June of 2018 as Associate Creative Director with an expertise in communication, research, graphic and visual arts. Prior to joining the team, Larry interned with a company that extracted utility and knowledge from multiple data sources and standards in national intelligence, banking, healthcare, cyber, federal, & other sectors. In this position, Larry worked on the communications team where he translated complex concepts related to data sources and standards into graphical representations.
+</p>
+
+  <p>
+    Through a cybersecurity lens, Larry provides a multitude of creative templates and visuals that communicate the principles presented by the policies, strategies, and risk management within the cybersecurity field. By incorporating his graphic, communications and research skills, Larry works with analogies and metaphors to bring out a more digestible meaning with the purpose that it will meet ZRA’s clients from both the private and public sectors in a more comprehensible presentation.
+  </p> 
+</div>
+</div>
+</div>
     </div>
+
+    <div style="background-image: url('assets/ZRA_profile picture_Larry.png');"></div>
+
+    <div style=" background-color: #114999;" id="name" ><h2>Larry Ohaka<span style="font-weight: 100;">Associate Creative Director</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+    
+
+    <!-------------------Nick Winstead-------------------->
+    <div style=" background-color: #114999;" id="name" ><h2>Nick Winstead<span style="font-weight: 100;">Senior Associate</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+
+    <div style="background-image: url('assets/ZRA_organizational circle chart_graphic-04.png');"></div>
+    
+    <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+        <p>Nick Winstead joined ZRA as an Associate in March 2020. Prior to joining ZRA, Nick conducted technical and policy research at the Center for the Study of Weapons of Mass Destruction. Before this, he gained experience...
+        </p>
+     <!--BUTTON-->
+     <button (click)="show(13)" class="btn3 btn-3"> <svg>
+      <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+    </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 13">
+<div class="uc-m-content">
+<div class="uc-m-header">
+<span class="material-icons" (click)="close()">
+  close
+</span>
+<h4>Nick Winstead</h4>
+</div>
+<div class="uc-m-body">
+<p>
+  Nick Winstead joined ZRA as an Associate in March 2020. Prior to joining ZRA, Nick conducted technical and policy research at the Center for the Study of Weapons of Mass Destruction. Before this, he gained experience in wargaming and simulation at the Center for Applied Strategic Learning and provided military and strategic analysis at the Atlantic Treaty Association in Belgium.
+</p>
+
+<p>
+  Nick graduated from American University in 2017 with a B.A. in International Studies. In May 2020, he received his M.A. in Foreign Policy and National Security, also from American University. Nick is an inaugural fellow at the Center for Security, Innovation, and New Technology, a collective of scholars dedicated to researching the impacts of emerging technologies. He is proficient in French and Spanish, and is currently learning Russian.
+</p> 
+</div>
+</div>
+</div>
+    </div>
+
+    <!-----------Sheryl Goldberg------------->
+    <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(-90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+      <p>Sheryl Goldberg joined ZRA as a Research Associate in November, 2020. Sheryl conducts and synthesizes research, assists in compilation and creation of materials used in courses as well as provide other support to the team....
+      </p>
+      
+     <!--BUTTON-->
+     <button (click)="show(14)" class="btn3 btn-3"> <svg>
+      <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+    </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 14">
+<div class="uc-m-content">
+<div class="uc-m-header">
+<span class="material-icons" (click)="close()">
+  close
+</span>
+<h4>Sheryl Goldberg</h4>
+</div>
+<div class="uc-m-body">
+<p>
+  Sheryl Goldberg joined ZRA as a Research Associate in November, 2020. Sheryl conducts and synthesizes research, assists in compilation and creation of materials used in courses as well as provide other support to the team.
+</p>
+
+<p>
+  In Sheryl's prior relevant work experience, she worked at Independence Blue Cross as an Actuarial analyst. In that capacity, she calculated rates for filing to the Pennsylvania Insurance Department, created forecasting reports, as well as supporting management with various data and report requests.
+</p> 
+
+<p>
+  Sheryl is returning to the corporate world after raising her children while owning a small business that allowed her the flexibility to be home when needed.
+</p>
+
+<p>
+  Sheryl received her Bachelor of Arts in Mathematics from La Salle University.
+</p>
+  
+</div>
+</div>
+</div>
+  </div>
+
+  <div style="background-image: url('assets/ZRA_organizational circle chart_graphic-06.png');"></div>
+
+  <div style=" background-color: #114999;" id="name" ><h2>Sheryl Goldberg<span style="font-weight: 100;">Associate</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+  
+
+  <!-----------------Rebecca Winslow---------------->
+  <div style=" background-color: #114999;" id="name" ><h2>Rebecca Winslow<span style="font-weight: 100;">Associate</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+
+  <div style="background-image: url('assets/ZRA_organizational circle chart_graphic-05.png');"></div>
+  
+  <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+      <p>Rebecca Winslow joined ZRA as an Associate in July 2021. Before joining ZRA, Rebecca worked as a program management analyst supporting the Department of Veteran Affairs’ Office of Research and Development....
+      </p>
+   
+     <!--BUTTON-->
+     <button (click)="show(15)" class="btn3 btn-3"> <svg>
+      <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+    </svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 15">
+<div class="uc-m-content">
+<div class="uc-m-header">
+<span class="material-icons" (click)="close()">
+  close
+</span>
+<h4>Rebecca Winslow</h4>
+</div>
+<div class="uc-m-body">
+<p>
+  Rebecca Winslow joined ZRA as an Associate in July 2021. Before joining ZRA, Rebecca worked as a program management analyst supporting the Department of Veteran Affairs’ Office of Research and Development. During graduate school, she worked as a Policy Intern with the Intelligence and National Security Alliance (INSA) where she worked on intelligence and policy-related matters in the areas of technology, acquisition, and legal issues.
+</p>
+
+<p>
+  Rebecca earned her Master of Arts in Forensic and Legal Psychology with a concentration in Intelligence Studies from Marymount University. She received her B.A. in Psychology from Virginia Wesleyan University with a minor in Criminal Justice.
+</p> 
+  
+</div>
+</div>
+</div>
+</div>
+
+ <!-----------Matthew Kostman------------->
+ <div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(-90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+  <p>Matt joined ZRA as an Associate in January 2022. Prior to joining ZRA, Matt worked as a Researcher at Gartner, developing management best practices for Applications and Software Engineering Leaders that focused...
+  </p>
+  
+ <!--BUTTON-->
+ <button (click)="show(16)" class="btn3 btn-3"> <svg>
+  <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+</svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 16">
+<div class="uc-m-content">
+<div class="uc-m-header">
+<span class="material-icons" (click)="close()">
+close
+</span>
+<h4>Matthew Kostman</h4>
+</div>
+<div class="uc-m-body">
+<p>
+  Matt joined ZRA as an Associate in January 2022. Prior to joining ZRA, Matt worked as a Researcher at Gartner, developing management best practices for Applications and Software Engineering Leaders that focused on topics such as automation, Agile, application modernization and portfolio management. Previously, he worked at a number of nonprofits that focused on international, security, and economic policy in the Eastern European region.
+</p>
+
+<p>
+  Matt received his MA from the Johns Hopkins School of Advanced International Studies, with a concentration in International Economics and European & Eurasian Studies. He received his BA in International Affairs with a minor in Russian Language & Literature from George Washington University.
+</p> 
+</div>
+</div>
+</div>
+</div>
+
+<div style="background-image: url('assets/ZRA_organizational circle chart_graphic-03.png');"></div>
+
+<div style=" background-color: #114999;" id="name" ><h2>Matthew Kostman<span style="font-weight: 100;">Associate</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+
+
+
+<!-----------------Michelle McGovern---------------->
+<div style=" background-color: #114999;" id="name" ><h2>Michelle McGovern<span style="font-weight: 100;">Executive Assistant to the President</span></h2><img src="assets/linkedin logo white.png" href="#"></div>
+
+<div style="background-image: url('assets/ZRA_organizational circle chart_graphic-06.png');"></div>
+
+<div class="team" style="overflow-y: scroll; background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,0.24736842105263157) 0%, rgba(0,0,0,0) 8%);">
+  <p>Michelle McGovern joined ZRA in November 2020. Michelle serves as the Executive Assistant to the President of ZRA. Mrs. McGovern performs clerical duties, coordinates and maintains records, assists in special projects, along with supporting the ZRA ....
+  </p>
+
+ <!--BUTTON-->
+ <button (click)="show(17)" class="btn3 btn-3"> <svg>
+  <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+</svg>Learn More</button>
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 17">
+<div class="uc-m-content">
+<div class="uc-m-header">
+<span class="material-icons" (click)="close()">
+close
+</span>
+<h4>Michelle McGovern</h4>
+</div>
+<div class="uc-m-body">
+<p>
+  Michelle McGovern joined ZRA in November 2020. Michelle serves as the Executive Assistant to the President of ZRA. Mrs. McGovern performs clerical duties, coordinates and maintains records, assists in special projects, along with supporting the ZRA team.
+</p>
+
+<p>
+  Michelle’s previous work experience includes accounts payables specialist and loan processing assistant. Mrs. McGovern previously owned and operated a small business in her community.
+</p> 
+
+<p>
+  Michelle attended culinary school at walnut hill college in Philadelphia, with an emphasis on pastry arts.
+</p>
+</div>
+</div>
+</div>
+</div>
 
 
     
   
 </div>
- 
- 
-
-
-
-
-
- <!--Team Member Information-->
-
- <!--Lee Zeichner-->
-
- <div id="lee" class="overlay">
-	<div class="popup">
-		<h2>Lee Zeichner</h2>
-		<a class="close" href="#">&times;</a>
-		<div class="content">
-			<p>
-                Lee M. Zeichner is the Founder and President of Zeichner Risk Analytics. Since his service as senior counsel to the President's Commission on Critical Infrastructure Protection from 1996-1998, he has led development of cybersecurity policy and operations for both leading public and private sector clients. Mr. Zeichner has published extensively on multiple aspects of cybersecurity law and is the author of Cyber Security & Corporate Liability, a guide for corporate counsel on cybersecurity and risk management, published by LexisNexis Publishing in 2001. Mr. Zeichner is authoring his sixth update of the book, scheduled for release in 2014.</p>
-
-              <p>
-                Mr. Zeichner currently consults on cybersecurity issues for the Department of Homeland Security, and has performed multiple risk assessments, including a review of the Executive Office of the President and other Federal Departments. Mr. Zeichner promotes cybersecurity as a member of the American Bar Association's Standing Committee on Law and National Security, where he has served since 1998.
-              </p> 
-                
-                <p>
-                    Mr. Zeichner is a graduate of Georgetown University Law Center. He graduated from the University of Florida (Phi Beta Kappa) and received his M.A. in East Asian Studies from Stanford University. Mr. Zeichner is a member of multiple bar associations, including the Florida and DC Bars, the Court of International Trade, and the Court of Appeals for the Federal Circuit. Mr. Zeichner speaks Mandarin Chinese.
-
-                </p>
-    
-		</div>
-	</div>
-</div>
-
-
 </main>
 
 

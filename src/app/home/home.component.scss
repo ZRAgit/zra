@@ -206,10 +206,12 @@
     
     
     .cards {
-      margin: auto;
+      margin-bottom: 100px;
+      margin-left: auto;
+      margin-right: auto;
       display: grid;
-      grid-gap: 0em;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+      grid-gap: 0.5em;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
     
     .card-1 {
@@ -229,14 +231,14 @@
       margin: auto; }
     
     
-      .cap h2, .cap1 h2, .cap2 h2, .cap3 h2{
+      .cap h2, .cap1 h2, .cap2 h2, .cap3 h2, .cap4 h2, .cap5 h2, .cap6 h2, .cap7 h2, .cap8 h2, .cap9 h2, .cap10 h2, .cap11 h2{
         font-size:20px;
         color:#2356a8;
         text-align: center;
         line-height: 1em;
         }
         
-         .cap p, .cap1 p, .cap2 p, .cap3 p {
+         .cap p, .cap1 p, .cap2 p, .cap3 p, .cap4 p, .cap5 p, .cap6 p, .cap7 p, .cap8 p, .cap9 p, .cap10 p, .cap11 p {
         font-size: 19px, 2vw;  
         text-align: center;
         line-height: 1.5em;
@@ -244,7 +246,7 @@
         padding: 10px;
         }
     
-        .cap, .cap1, .cap2, .cap3{
+        .cap, .cap1, .cap2, .cap3, .cap4, .cap5, .cap6, .cap7, .cap8, .cap9, .cap10, .cap11{
           position: relative;
           width: 303px;
           box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
@@ -254,7 +256,7 @@
         }
     
     
-        .cap::after, .cap1::after, .cap2::after, .cap3::after{
+        .cap::after, .cap1::after, .cap2::after, .cap3::after, .cap4::after, .cap5::after, .cap6::after, .cap7::after, .cap8::after, .cap9::after, .cap10::after, .cap11::after{
           width: 300px;
           position: absolute;
           opacity: 0;
@@ -266,12 +268,12 @@
     
     
     
-        .cap:hover, .cap1:hover, .cap2:hover, .cap3:hover {
+        .cap:hover, .cap1:hover, .cap2:hover, .cap3:hover, .cap4:hover, .cap5:hover, .cap6:hover, .cap7:hover, .cap8:hover, .cap9:hover, .cap10:hover, .cap11:hover {
           -webkit-transform: scale(1.05, 1.05);
           transform: scale(1.05, 1.05);
         }
         
-        .cap:hover::after, .cap1:hover::after, .cap2:hover::after, .cap3:hover::after {
+        .cap:hover::after, .cap1:hover::after, .cap2:hover::after, .cap3:hover::after, .cap4:hover::after, .cap5:hover::after, .cap6:hover::after, .cap7:hover::after, .cap8:hover::after, .cap9:hover::after, .cap10:hover::after, .cap11:hover::after {
             opacity: 1;
         }
         

@@ -206,7 +206,7 @@ html, body {
 
   /* Menu */
   .sidenav {
-    height: 30%, 4vw;
+    height: 25%, 2vw;
     width: 160px;
     position: fixed;
     z-index: 3;
@@ -557,23 +557,20 @@ html, body {
   
   .grid-container1 {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px,  3fr) );
-    min-width:350px;
-max-width: 50vw;
-max-height: 100%;
-top:0;
-bottom: 0;
-left: 0;
-right: 0;
-margin: auto;
-z-index: 3;
-
+    grid-template-areas:
+    'team team team team about'
+    'footer footer footer footer about';
+   
+    padding-left: 15%;
+    padding-right: 15%;
+    
 }
 
 .grid-container1 > div {
 background-color: rgb(255, 255, 255);
 text-align: center;
 font-size: 30px;
+height: 200px;
 }
       
   /*Capabilites section*/

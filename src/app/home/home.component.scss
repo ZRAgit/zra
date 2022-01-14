@@ -157,61 +157,60 @@
     
     
       .card4{
-        background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.863)), ; background-repeat: no-repeat;
-          background-size: cover; 
           color: white;
-          height: 320px;
+          height: 300px;
+           p{
+            font-size: 15px;
+            line-height: 1.5em;
+          }
+          h4{
+            font-size: 25px;
+            font-weight: 300;
+          }
        }
     
-       .card4 p{
-        font-size: 15px;
-        line-height: 1.5em;
-      }
+      
     
-      .card4 h4{
-        font-size: 25px;
-        font-weight: 300;
-      }
-       
+    
        .card5{
+        color: white;
         background: rgb(210, 212, 221);
         height: 300px;
         padding: 20px;
-       }
+        p{
+          font-size: 15px;
+          line-height: 1.5em;
+        }
+        h4{
+          font-size: 25px;
+          font-weight: 300;
+        }
+     }
+       
     
-       .card5 h3{
-         position: relative;
-         font-size: 40px 
-       }
     
-    
-       .card6{
+       .item2{
           color: white;
-          height: 300px;
+          padding-left: 20px;
+          padding-right: 20px;
+          h4{
+            font-size: 25px;
+            font-weight: 300;
+          }
+            p{
+              font-size: 15px;
+              line-height: 1.5em;
+            }
       }
     
-      .card6 p{
-        font-size: 15px;
-        line-height: 1.5em;
-      }
-    
-      .card6 h4{
-        font-size: 25px;
-        font-weight: 300;
-      }
-    
-    
-    
-    
-    
+     
     
     .cards {
       margin-bottom: 100px;
-      margin-left: auto;
-      margin-right: auto;
+      
       display: grid;
-      grid-gap: 0.5em;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 1.5em;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 2fr));
     }
     
     .card-1 {
@@ -239,15 +238,17 @@
         }
         
          .cap p, .cap1 p, .cap2 p, .cap3 p, .cap4 p, .cap5 p, .cap6 p, .cap7 p, .cap8 p, .cap9 p, .cap10 p, .cap11 p {
-        font-size: 19px, 2vw;  
+        font-size: 16px;  
         text-align: center;
-        line-height: 1.5em;
+        line-height: 1.3em;
         color: rgb(100, 100, 100);
         padding: 10px;
         }
     
         .cap, .cap1, .cap2, .cap3, .cap4, .cap5, .cap6, .cap7, .cap8, .cap9, .cap10, .cap11{
           position: relative;
+          height:470px;
+          overflow-y: hidden;
           width: 303px;
           box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
           border-radius: 5px;
@@ -311,14 +312,44 @@
     
     
      
+    .item2{ grid-area: about;}
+    .item4{ grid-area: team;}
+    .item5{ grid-area: footer;}
     
     
-    
-    
-    
+    .item5{
+      padding: 20px; 
+      background-repeat: no-repeat;
+       background-size: cover;
+        color: white
+    }
   
   
-   
+   .item2, .card4, .item4, .item5{
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+   }
+
+   .item2::after, .card4::after, .item4::after, .item5::after{
+    border-radius: 5px;
+          -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1);
+   }
+
+   .item2:hover, .card4:hover, .item4:hover, .item5:hover{
+    -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+   }
+
+   .item2:hover::after, .card4:hover::after, .item4:hover::after, .item5:hover::after{
+    opacity: 1;
+   }
     
+   .item2{
+     overflow-y: hidden;
+     overflow-x: hidden;
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
     
     

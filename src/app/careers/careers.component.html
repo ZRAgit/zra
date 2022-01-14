@@ -130,9 +130,9 @@
     
 
     <!--Card 1-->
-    <a href="#pop-up1">
+    <a (click)="show(1)" >
    <div class="cap">
-   <div class="card-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(assets/george-prentzas-SRFG7iwktDk-unsplash.jpg);
+   <div class="card-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(assets/cytonn-photography-n95VMLxqM2I-unsplash.jpg);
    background-repeat: no-repeat;
    background-size: cover;"><img src="assets/ZRA Website 2022-21.png"></div>
    <h2>Consultant</h2>
@@ -140,21 +140,71 @@
    </div>
  </a>
 
+ <!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 1">
+  <div class="uc-m-content">
+    <div class="uc-m-header">
+      <span class="material-icons" (click)="close()">
+        close
+      </span>
+      <h4>Lee Zeichner</h4>
+    </div>
+    <div class="uc-m-body">
+      <p>
+        Lee M. Zeichner is the Founder and President of Zeichner Risk Analytics. Since his service as senior counsel to the President's Commission on Critical Infrastructure Protection from 1996-1998, he has led development of cybersecurity policy and operations for both leading public and private sector clients. Mr. Zeichner has published extensively on multiple aspects of cybersecurity law and is the author of Cyber Security & Corporate Liability, a guide for corporate counsel on cybersecurity and risk management, published by LexisNexis Publishing in 2001. Mr. Zeichner is authoring his sixth update of the book, scheduled for release in 2014.</p>
+
+      <p>
+        Mr. Zeichner currently consults on cybersecurity issues for the Department of Homeland Security, and has performed multiple risk assessments, including a review of the Executive Office of the President and other Federal Departments. Mr. Zeichner promotes cybersecurity as a member of the American Bar Association's Standing Committee on Law and National Security, where he has served since 1998.
+      </p> 
+        
+        <p>
+            Mr. Zeichner is a graduate of Georgetown University Law Center. He graduated from the University of Florida (Phi Beta Kappa) and received his M.A. in East Asian Studies from Stanford University. Mr. Zeichner is a member of multiple bar associations, including the Florida and DC Bars, the Court of International Trade, and the Court of Appeals for the Federal Circuit. Mr. Zeichner speaks Mandarin Chinese.
+
+        </p>
+    </div>
+  </div>
+</div>
+
 
 <!--Card 2-->
-<a href="#pop-up2">
+<a (click)="show(2)" >
    <div class="cap1">
-   <div class="card-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(assets/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);background-repeat: no-repeat;
+   <div class="card-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(assets/scott-graham-OQMZwNd3ThU-unsplash.jpg);background-repeat: no-repeat;
    background-size: cover;"><img src="assets/ZRA Website 2022-21.png"></div>
     <h2>Research Associate </h2>
     <p>ZRA provides exceptional program support for optimizing organizational performance as well as specialized support for developing ...</p>
 </div>
 </a>
 
+ <!--MODAL-->
+ <div class="uc-modal" *ngIf="showModal === 2">
+  <div class="uc-m-content">
+    <div class="uc-m-header">
+      <span class="material-icons" (click)="close()">
+        close
+      </span>
+      <h4>Lee Zeichner</h4>
+    </div>
+    <div class="uc-m-body">
+      <p>
+        Lee M. Zeichner is the Founder and President of Zeichner Risk Analytics. Since his service as senior counsel to the President's Commission on Critical Infrastructure Protection from 1996-1998, he has led development of cybersecurity policy and operations for both leading public and private sector clients. Mr. Zeichner has published extensively on multiple aspects of cybersecurity law and is the author of Cyber Security & Corporate Liability, a guide for corporate counsel on cybersecurity and risk management, published by LexisNexis Publishing in 2001. Mr. Zeichner is authoring his sixth update of the book, scheduled for release in 2014.</p>
+
+      <p>
+        Mr. Zeichner currently consults on cybersecurity issues for the Department of Homeland Security, and has performed multiple risk assessments, including a review of the Executive Office of the President and other Federal Departments. Mr. Zeichner promotes cybersecurity as a member of the American Bar Association's Standing Committee on Law and National Security, where he has served since 1998.
+      </p> 
+        
+        <p>
+            Mr. Zeichner is a graduate of Georgetown University Law Center. He graduated from the University of Florida (Phi Beta Kappa) and received his M.A. in East Asian Studies from Stanford University. Mr. Zeichner is a member of multiple bar associations, including the Florida and DC Bars, the Court of International Trade, and the Court of Appeals for the Federal Circuit. Mr. Zeichner speaks Mandarin Chinese.
+
+        </p>
+    </div>
+  </div>
+</div>
+
 <!--Card 3-->
-<a href="#pop-up3">
+<a (click)="show(3)" >
 <div class="cap2">
-   <div class="card-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(assets/maximalfocus-HakTxidk36I-unsplash.jpg);
+   <div class="card-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(assets/jason-goodman-Oalh2MojUuk-unsplash.jpg);
    background-repeat: no-repeat;
    background-size: cover;"><img src="assets/ZRA Website 2022-21.png"></div>
    <h2>Communications</h2>
@@ -162,16 +212,66 @@
 </div>
 </a>
 
+<!--MODAL-->
+<div class="uc-modal" *ngIf="showModal === 3">
+  <div class="uc-m-content">
+    <div class="uc-m-header">
+      <span class="material-icons" (click)="close()">
+        close
+      </span>
+      <h4>Lee Zeichner</h4>
+    </div>
+    <div class="uc-m-body">
+      <p>
+        Lee M. Zeichner is the Founder and President of Zeichner Risk Analytics. Since his service as senior counsel to the President's Commission on Critical Infrastructure Protection from 1996-1998, he has led development of cybersecurity policy and operations for both leading public and private sector clients. Mr. Zeichner has published extensively on multiple aspects of cybersecurity law and is the author of Cyber Security & Corporate Liability, a guide for corporate counsel on cybersecurity and risk management, published by LexisNexis Publishing in 2001. Mr. Zeichner is authoring his sixth update of the book, scheduled for release in 2014.</p>
+
+      <p>
+        Mr. Zeichner currently consults on cybersecurity issues for the Department of Homeland Security, and has performed multiple risk assessments, including a review of the Executive Office of the President and other Federal Departments. Mr. Zeichner promotes cybersecurity as a member of the American Bar Association's Standing Committee on Law and National Security, where he has served since 1998.
+      </p> 
+        
+        <p>
+            Mr. Zeichner is a graduate of Georgetown University Law Center. He graduated from the University of Florida (Phi Beta Kappa) and received his M.A. in East Asian Studies from Stanford University. Mr. Zeichner is a member of multiple bar associations, including the Florida and DC Bars, the Court of International Trade, and the Court of Appeals for the Federal Circuit. Mr. Zeichner speaks Mandarin Chinese.
+
+        </p>
+    </div>
+  </div>
+</div>
+
 <!--Card 4-->
-<a href="#pop-up4">
+<a (click)="show(4)" >
 <div class="cap3">
- <div class="card-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(assets/sigmund-Fa9b57hffnM-unsplash.jpg);
+ <div class="card-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(assets/annie-spratt-QckxruozjRg-unsplash.jpg);
  background-repeat: no-repeat;
  background-size: cover;"><img src="assets/ZRA Website 2022-21.png"></div>
   <h2>Internships</h2>
   <p>ZRA offers an interdisciplinary approach to teaching and learning about cybersecurity. ZRA education materials provide a highly ...</p>
   </div>
  </a>
+
+ <!--MODAL-->
+ <div class="uc-modal" *ngIf="showModal === 4">
+  <div class="uc-m-content">
+    <div class="uc-m-header">
+      <span class="material-icons" (click)="close()">
+        close
+      </span>
+      <h4>Lee Zeichner</h4>
+    </div>
+    <div class="uc-m-body">
+      <p>
+        Lee M. Zeichner is the Founder and President of Zeichner Risk Analytics. Since his service as senior counsel to the President's Commission on Critical Infrastructure Protection from 1996-1998, he has led development of cybersecurity policy and operations for both leading public and private sector clients. Mr. Zeichner has published extensively on multiple aspects of cybersecurity law and is the author of Cyber Security & Corporate Liability, a guide for corporate counsel on cybersecurity and risk management, published by LexisNexis Publishing in 2001. Mr. Zeichner is authoring his sixth update of the book, scheduled for release in 2014.</p>
+
+      <p>
+        Mr. Zeichner currently consults on cybersecurity issues for the Department of Homeland Security, and has performed multiple risk assessments, including a review of the Executive Office of the President and other Federal Departments. Mr. Zeichner promotes cybersecurity as a member of the American Bar Association's Standing Committee on Law and National Security, where he has served since 1998.
+      </p> 
+        
+        <p>
+            Mr. Zeichner is a graduate of Georgetown University Law Center. He graduated from the University of Florida (Phi Beta Kappa) and received his M.A. in East Asian Studies from Stanford University. Mr. Zeichner is a member of multiple bar associations, including the Florida and DC Bars, the Court of International Trade, and the Court of Appeals for the Federal Circuit. Mr. Zeichner speaks Mandarin Chinese.
+
+        </p>
+    </div>
+  </div>
+</div>
 
  </div>
 

@@ -216,6 +216,54 @@ margin-top: 100px;
       }
       
 
+/*Modal*/
+.uc-modal{
+  z-index: 2;
+  position: fixed;
+  padding: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
 
+
+.uc-m-content{
+  background-color: white;
+  width: 60%;
+  margin: 3% auto;
+  padding: 20px;
+}
+  
+
+.uc-m-header{
+  padding:20px;
+  position:relative
+}
+  
+.uc-m-header .material-icons{
+cursor: pointer;
+position: absolute;
+right: 10px;
+top: 10px;
+}
+
+.uc-m-header h4{
+  margin:0;
+}
+
+.uc-m-body{
+  padding: 20px;
+  min-height: 200px;
+}
+
+.uc-m-body p{
+    line-height: 1.5rem;
+    overflow-y: scroll;
+}
   
   

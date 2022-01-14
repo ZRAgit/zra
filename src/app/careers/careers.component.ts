@@ -12,4 +12,15 @@ export class CareersComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  showModal = -1;
+
+  show(index: number){
+    this.showModal=index;
+  }
+
+
+close(){
+this.showModal = -1;
+}
+
 }

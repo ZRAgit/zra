@@ -98,6 +98,8 @@
       position: relative;
       z-index: 1;
       margin-top: 100vh;
+      box-shadow: 4px 3px 13px 13px rgba(0, 0, 0, 0.096);
+      
     
       &::before{
         content: "";
@@ -122,10 +124,7 @@
     .header-content h4{
     font-size:30px;
     font-weight: 300;
-    
     }
-    
-  
     
     .card1{
       background: rgb(255, 255, 255);
@@ -161,7 +160,7 @@
         background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.863)), ; background-repeat: no-repeat;
           background-size: cover; 
           color: white;
-          height: 300px;
+          height: 320px;
        }
     
        .card4 p{
@@ -172,17 +171,12 @@
       .card4 h4{
         font-size: 25px;
         font-weight: 300;
-        
       }
        
-    
-    
        .card5{
         background: rgb(210, 212, 221);
         height: 300px;
         padding: 20px;
-        
-        
        }
     
        .card5 h3{
@@ -282,12 +276,6 @@
         }
         
     
-      
-    
-    
-    
-    
-      
     
         .card7{ 
           color: white;

@@ -8,6 +8,22 @@
  * Description: Navigation and Layout
  */
 
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+* {
+  -ms-overflow-style: none;
+}
   
 /* HTML & body */
 html, body {
@@ -37,6 +53,7 @@ html, body {
     text-decoration: none;
     text-transform: uppercase;
     width: 100%; 
+    min-width: 140px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -160,7 +177,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     max-width: 4em;
-    min-width: 10%;
+    min-width: 140px;
     top: 90vh;
     text-align: center;
     z-index: 2;
@@ -281,11 +298,7 @@ html, body {
     transform: translateY(100%);
   }
   
-   /* Twitter */
-   .twtr{
-    opacity: 0.8;
-  
-  }
+   
 
   /* logo */
   .logo img{
@@ -470,64 +483,8 @@ html, body {
 
   /* News articles */
   
-  .recentNews .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 0px;
-  }
-  .recentNews .ct-blog {
-    margin-bottom: 10px;
-  }
-  .ct-blog .inner {
-    background-color: #FFF;
-    padding: 10px;
-    transition: all 0.2s ease-in-out 0s;
-    cursor: pointer;
-    height: 100%;
-  }
-  .ct-blog .inner:hover {
-    background-color: #e6e6e6;
-  }
-  .ct-blog .fauxcrop {
-    height: 180px;
-    overflow: hidden;
-  }
-  .ct-blog .fauxcrop img {
-    width: 100%;
-  }
-  .ct-blog-content {
-    display: table;
-    padding: 10px 0 28px;
-  }
-  .ct-blog-content .ct-blog-date {
-    border-right: 1px solid #95A5A6;
-    display: table-cell;
-    font-family: "Lato", sans-serif;
-    padding: 0px 10px 0px 15px;
-    text-align: center;
-  }
-  .ct-blog-content .ct-blog-date span {
-    font-size: 16px;
-    color: rgb(20, 117, 175);  
-    font-weight: 700;
-    display: block;
-    line-height: 1;
-  }
-  .ct-blog-content .ct-blog-date strong {
-    font-size: 25px;
-    color: rgb(20, 117, 175);  
-  }
-  .ct-blog-content .ct-blog-header {
-    color: #000;
-    display: table-cell;
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: -0.2px;
-    line-height: 1.1;
-    padding: 0 20px;
-    vertical-align: top;
-  }
+
+  
 
     /* Blocks (second section) */
     .grid-container {
@@ -549,7 +506,7 @@ html, body {
     .grid-container > div {
       background-color: rgb(255, 255, 255);
       text-align: center;
-      padding: 20px 0;
+      padding: 20px ;
       font-size: 30px;
     }
     
@@ -560,17 +517,17 @@ html, body {
     grid-template-areas:
     'team team team team about'
     'footer footer footer footer about';
-   
-    padding-left: 15%;
-    padding-right: 15%;
-    
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-template-columns: 1fr;  
 }
 
 .grid-container1 > div {
 background-color: rgb(255, 255, 255);
 text-align: center;
 font-size: 30px;
-height: 200px;
+height: 250px;
+
 }
       
   /*Capabilites section*/
@@ -583,8 +540,8 @@ height: 200px;
     bottom: 0;
     left: 0;
     right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 200px;
     margin-bottom: 200px;
    

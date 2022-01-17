@@ -42,8 +42,10 @@
   
   p {
     font-weight: 300;
-    text-align: center;
-    font-size: 15px;
+    font-size: 20px;
+    line-height: 1.5em;
+    
+    
   }
   
 
@@ -79,9 +81,9 @@ b{
 
 /*WHAT MAKES ZRA A GREAT PLACE TO WORK?*/
 .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 3fr) );
-    min-width:200px;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 3fr) );
+min-width:200px;
 max-width: 60%;
 max-height: 100%;
 top:0;
@@ -90,9 +92,9 @@ left: 0;
 right: 0;
 grid-gap: 4em;
 margin-top: 100px;
-      margin-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
+ margin-bottom: 100px;
+ margin-left: auto;
+  margin-right: auto;
   }
   
 
@@ -118,7 +120,7 @@ margin-top: 100px;
           padding: 40px;
         position: relative;
         max-width: 300px;
-        height: 220px;
+        height: 300px;
         box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
         border-radius: 5px;
         -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -174,11 +176,15 @@ margin-top: 100px;
       line-height: 1.5em;
       color: rgb(100, 100, 100);
       padding: 10px;
+      
       }
   
       .cap, .cap1, .cap2, .cap3{
+        overflow: hidden ;
         position: relative;
         width: 303px;
+        height: 500px;
+        margin: 20px;
         box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
         border-radius: 5px;
         -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);

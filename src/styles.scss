@@ -231,7 +231,7 @@ html, body {
     height: 20%, 1vh;
     width: 160px;
     position: fixed;
-    z-index: 3;
+    z-index: 1;
     top: 1;
     right: 0;
     background-color: rgba(27, 27, 31, 0.39);
@@ -419,7 +419,7 @@ html, body {
   }
   
   .popup {
-    z-index: 5;
+    z-index: 3;
     margin: 30px auto;
     padding: 20px;
     background: rgba(255, 255, 255);
@@ -448,7 +448,7 @@ html, body {
   }
 /*POPUP DARK VERSION*/
   .popup1 {
-    z-index: 4;
+    z-index: 3;
     margin: 50px auto;
     padding: 20px;
     background: rgba(5, 5, 5, 0.781);
@@ -904,32 +904,42 @@ width: 100%;
   
 }
 
+
+
+
     /*Footer*/
 footer {
-    z-index: 4;
-    text-align: center;
-    padding: 30px;
-    background-color: rgb(210, 212, 221);
-    color: rgb(114, 115, 117);
-    align-content: center;
-    .social-media p{
-      float: left;
-    }
+  z-index: 0;
+  position:relative;
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(210, 212, 221);
+  color: rgb(114, 115, 117);
+  align-content: center;
+  p{
     
-    img{
-      width: 20px;
-      padding:5px;
-      float: right
-    }
+    text-align: center;
   }
-
-  .twitter-logo{
-    width: 19px;
-  }
-  
-  footer a{
+  a{
+    color: #0650d8;
     text-decoration: none;
   }
+  .social-media p{
+    float: left;
+  }
+  
+  img{
+    width: 20px;
+    padding:5px;
+    float: right
+  }
+}
+
+.twitter-logo{
+  width: 19px;
+}
+
+
 
 
 html, body { height: 100%; }

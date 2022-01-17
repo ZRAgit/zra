@@ -51,6 +51,14 @@
     text-decoration: none;
   }
 
+  p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5em;
+    
+    
+  }
+
 
 
   /*Team grid starts here*/
@@ -106,28 +114,6 @@
 }
 
     
-  /*Footer*/
-footer {
-  z-index: 1;
-  text-align: center;
-  padding: 30px;
-  background-color: rgb(210, 212, 221);
-  color: rgb(114, 115, 117);
-  align-content: center;
-  .social-media p{
-    float: left;
-  }
-  
-  img{
-    width: 16px;
-    padding:5px;
-    float: right
-  }
-}
-
-footer a{
-  text-decoration: none;
-}
 
 
 /*Modal Button*/

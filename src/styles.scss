@@ -34,7 +34,7 @@ html, body {
   html {
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
-    line-height: 1.4;
+    
     
   }
   body {
@@ -221,9 +221,14 @@ html, body {
   }
   
 
+  /*Side nav*/
+  
+  
+
+
   /* Menu */
   .sidenav {
-    height: 25%, 2vw;
+    height: 20%, 1vh;
     width: 160px;
     position: fixed;
     z-index: 3;
@@ -240,6 +245,7 @@ html, body {
     text-align: left;
     text-transform: uppercase;
     font-weight: 300;
+    padding-bottom: 20px;
   }
   
   .nav  * {
@@ -255,16 +261,17 @@ html, body {
     left: 0;
     font-size: 2vw;
     
+    
   }
 
   .nav  a {
     padding: 0.3em 0;
-    color: rgba(255, 255, 255, 0.747);
+    color: rgb(255, 255, 255);
     display: inline-block;
     letter-spacing: 1px;
     margin: 10;
     text-decoration: none;
-    font-size: 13px; 
+    font-size: 15px; 
   }
   
   .nav  a:before,
@@ -298,7 +305,7 @@ html, body {
     transform: translateY(100%);
   }
   
-   
+  
 
   /* logo */
   .logo img{
@@ -529,6 +536,7 @@ html, body {
    color: white;
    position: relative;  
    min-width: 300px;
+   
 }
 
   

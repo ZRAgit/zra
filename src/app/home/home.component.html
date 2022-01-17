@@ -19,7 +19,8 @@
 <!------------------------Body Starts Here!------------------------->
 <body>
 
-  <!--Sidenav-->
+  
+
   <div class="sidenav">
 
   
@@ -42,7 +43,7 @@
 
   <header class="video-header">
    <!--video-->
-    <video src="assets/dotted sphere Comp 1_2.mp4" autoplay loop playsinline muted></video>
+    <video id="video" src="assets/dotted sphere Comp 1_2.mp4" autoplay muted loop playsinline></video>
 <!--Title-->
     <div class="viewport-header1">
       <h1>
@@ -99,7 +100,7 @@
   <div class="item4" class="card4" style="padding: 20px; background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(assets/nasa-Q1p7bh3SHj8-unsplash.jpg); background-repeat: no-repeat; background-size: cover; "><h4>Pilot Process</h4>
     <p>At our very core, ZRA is focused on developing effective and efficient risk management frameworks that provide executives and program managers with the capability to eliminate, mitigate, transfer, or accept risk.</p>
     <!--Button-->
-  <a href="#popupp" class="btn btn-1">
+  <a href="#pilot-process" class="btn btn-1">
       <svg>
         <rect x="0" y="0" fill="none" width="100%" height="100%"/>
       </svg>
@@ -110,7 +111,7 @@
 <div class="item5" style=" background: linear-gradient(rgba(0, 0, 0, 0.986), rgba(0, 0, 0, 0.89));">
 
     <div class="team-vid">
-      <video autoplay loop playsinline muted style=" opacity: 0.14;">
+      <video id="video" autoplay muted loop playsinline style=" opacity: 0.14;">
           <source src="assets/pexels-mikael-blomkvist-6561844.mp4" type="video/mp4" />
       </video>
      <br/>
@@ -422,7 +423,7 @@
 
 
   <!--Risk Managment-->
-<div id="popupp" class="overlay">
+<div id="pilot-process" class="overlay">
 	<div class="popup">
 		<h2>Mission Towards Inclusion</h2>
 		<a class="close" href="#main">&times;</a>
@@ -449,7 +450,7 @@
   	
     <!--News section-->
     <section>
-      <h3>NEWS at ZRA</h3>
+      <h3>ZRA NEWS</h3>
           <div class="news-container">
 
             <!--Twitter-->
@@ -460,7 +461,7 @@
                   <a class="twitter-timeline" data-lang="en" data-width="380" data-height="450" data-theme="light" href="https://twitter.com/ZeichnerRisk?ref_src=twsrc%5Etfw" ></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
               
-                <video autoplay loop playsinline muted style=" opacity: 0.44;">
+                <video id="video" autoplay muted loop playsinline style=" opacity: 0.44;">
                     <source src="assets/production ID_4199353.mp4" type="video/mp4" />
                 </video>
            </div>
@@ -596,7 +597,9 @@
 
 
 <!----------------------------Script---------------------------->
-
+<script>
+videoElement.play();
+</script>
 
 </body>
 </html>

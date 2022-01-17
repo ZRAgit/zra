@@ -76,61 +76,82 @@
 
         
 
-  <!------------Main section---------->
+  <!-----------------------Main section--------------------------->
  <main id="main">
 
-<!-----------Section 1------------->
-<div class="grid-container1">
 
-<!---------About------->
-  <div class="item2"  style="background-color:#114ea3; height: 100%; background-image: url(assets/ZRAWebsite2023-23.png); "><h4>ABOUT</h4>
-    <p>ZRA is a small business with over 20 years of experience in cybersecurity, risk management, program management, strategic planning, and law and policy.</p>
-    <!--Button-->
- <a routerLink="/about" class="btn btn-1">
-      <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
-    Learn More
-    </a>
-   
-  </div>  
+<!------------InfoBlock---------->
+  <div class="sec-1">
+
+    
+<!--About-->
+    <section class="info1" style="background-color:#114ea3;  background-image: url(assets/ZRAWebsite2023-23.png); background-repeat: no-repeat; background-size: cover;">
+      <h3 style="color:white">About</h3>
+      <p>ZRA is a small business with over 20 years of experience in cybersecurity, risk management, program management, strategic planning, and law and policy.</p>
+      <!--Button-->
+      <a routerLink="/about" class="btn btn-1">
+        <svg>
+          <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+        </svg>
+      Go to page
+      </a>
+    </section>
 
 
-<!---------Advancing towards inclusion------->
-  <div class="item4" class="card4" style="padding: 20px; background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(assets/nasa-Q1p7bh3SHj8-unsplash.jpg); background-repeat: no-repeat; background-size: cover; "><h4>Pilot Process</h4>
-    <p>At our very core, ZRA is focused on developing effective and efficient risk management frameworks that provide executives and program managers with the capability to eliminate, mitigate, transfer, or accept risk.</p>
-    <!--Button-->
-  <a href="#pilot-process" class="btn btn-1">
-      <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
-    Learn More
-    </a></div>
+<!--Pilot Process-->
+    <section class="figure1" style="padding: 20px; background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(assets/nasa-Q1p7bh3SHj8-unsplash.jpg); background-repeat: no-repeat; background-size: cover; ">
+    
+      <h3>Pilot Process</h3>
+      <p>At our very core, ZRA is focused on developing effective and efficient risk management frameworks that provide executives and program managers with the capability to eliminate, mitigate, transfer, or accept risk.</p>
+      <!--Button-->
+    <a href="#pilot-process" class="btn btn-1">
+        <svg>
+          <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+        </svg>
+      Learn More
+      </a>
+      <br/>
+      <br/>
+    </section>
 
-<!---------OUR TEAM------->
-<div class="item5" style=" background: linear-gradient(rgba(0, 0, 0, 0.986), rgba(0, 0, 0, 0.89));">
 
-    <div class="team-vid">
-      <video id="video" autoplay muted loop playsinline style=" opacity: 0.14;">
-          <source src="assets/pexels-mikael-blomkvist-6561844.mp4" type="video/mp4" />
-      </video>
-     <br/>
-     <br/>
 
-     <!--Button-->
- <a routerLink="/team" class="btn btn-1">
-      <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
-    VIEW OUR TEAM
-    </a>
-    <div class="overlay"></div>
+<!--Teams-->
+    <section class="team-vid">
+      <video id="video1" autoplay muted loop playsinline style=" opacity: 0.14;">
+        <source src="assets/pexels-mikael-blomkvist-6561844.mp4" type="video/mp4" />
+    </video>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <!--Button-->
+<a routerLink="/team" class="btn btn-1">
+    <svg>
+      <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+    </svg>
+  VIEW OUR TEAM
+  </a>
+    </section>
+
+
+<!--Mission Towards Inclusion-->
+    <section class="figure3" style="background-color:#061c3b;   background-image: url(assets/Diversity-12.png); background-repeat: no-repeat; background-size: cover;">
+     <h3 style="color:white">Mission Towards Diversity</h3>
+         <!--Button-->
+         <a href="#inclusion" class="btn btn-1">
+          <svg>
+            <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+          </svg>
+        Learn More
+        </a>
+    </section>
+
   </div>
-</div>
 
-</div>
-
-
+  <br/>
   <br/>
    
   <!-----------Section 2------------->
@@ -423,9 +444,27 @@
 
 
   <!--Risk Managment-->
-<div id="pilot-process" class="overlay">
+<div id="inclusion" class="overlay">
 	<div class="popup">
 		<h2>Mission Towards Inclusion</h2>
+		<a class="close" href="#main">&times;</a>
+		<div class="content">
+
+			<p>
+        ZRA must embrace an inclusive, truly equitable workplace that fosters diverse perspectives if we want to accelerate innovation, strengthen resilience, and enable the firm’s purpose to unlock the potential of those who advance the world.</p>
+
+       <p>ZRA’s inaugural diversity, equity, and inclusion (DEI) report is an effort to openly and transparently share a snapshot of the progress we’ve made—where we are at this point in the journey and where we’ve committed to go. Our leaders, staff, and business partners are energized to make a real and sustained difference in DEI at ZRA.</p> 
+        
+       <p> We recognize the corporate environment in which we play a critical role. Our diversity, equity, and inclusion report is a statement of our public commitment to transparency, an invitation for continued dialogue, and the standard by which we will be held accountable as our DEI journey continues.
+      </p>
+		</div>
+	</div>
+</div>
+
+<!--Risk Managment-->
+<div id="pilot-process" class="overlay">
+	<div class="popup">
+		<h2>Capabilities</h2>
 		<a class="close" href="#main">&times;</a>
 		<div class="content">
 

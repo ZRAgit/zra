@@ -21,18 +21,26 @@
 
   
 
-  <div class="sidenav">
+  <!--Sidenav-->
+  <input type="checkbox" name="" id="side-menu-switch">
+<div class="side-menu">
+    <nav>
+      <ul class="nav">
 
-  
-  <ul class="nav">
-
-    <li><a routerLink="/about" data-hover="ABOUT">ABOUT</a></li>
-    <li><a routerLink="/team" data-hover="TEAM">TEAM</a></li>
-    <li><a routerLink="/contact" data-hover="CONTACT">CONTACT</a></li>
-    <li><a routerLink="/contract" data-hover="CONTRACTS">CONTRACTS</a></li>
-    <li><a routerLink="/careers" data-hover="CAREERS">CAREERS</a></li>
-  </ul>
+        <li><a routerLink="/about" data-hover="ABOUT">ABOUT</a></li>
+        <li><a routerLink="/team" data-hover="TEAM">TEAM</a></li>
+        <li><a routerLink="/contact" data-hover="CONTACT">CONTACT</a></li>
+        <li><a routerLink="/contract" data-hover="CONTRACTS">CONTRACTS</a></li>
+        <li><a routerLink="/careers" data-hover="CAREERS">CAREERS</a></li>
+      </ul>
+    </nav>
+    <label for="side-menu-switch">
+      <div class="centerd">
+        <div></div>
+      </div>
+    </label>
 </div>
+
    <!--Logo-->
    <div class="logo1">
     <a routerLink=""><img src="assets/ZRA Website 2022-10.png"></a>
@@ -67,9 +75,9 @@
   <a href="#main" class="btn1 btn-2">
     <svg>
       <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-    </svg>Learn More </a>
+    </svg>Scroll Down</a>
  </header>
-
+ 
 
 
   <!-----------------------Main section--------------------------->
@@ -79,7 +87,9 @@
 <!--About-->
     <section class="info1" style="background-color:#114ea3;  background-image: url(assets/ZRAWebsite2023-23.png); background-repeat: no-repeat; background-size: cover;">
       <h3 style="color:white">About</h3>
-      <p>ZRA is a small business with over 20 years of experience in cybersecurity, risk management, program management, strategic planning, and law and policy.</p>
+      <p>ZRA is a small business with over 20 years of experience in cybersecurity, risk management, program management, strategic planning, and law and policy.
+        
+      </p>
       <!--Button-->
       <a routerLink="/about" class="btn btn-1">
         <svg>

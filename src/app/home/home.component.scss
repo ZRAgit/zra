@@ -85,10 +85,11 @@
     
      main {
       background: white;
-      position: absolute;
-      z-index: 0;
+      position: relative;
+      z-index: 3;
       margin-top: 100vh ;
       width: 100vw;
+      
     }
     
    

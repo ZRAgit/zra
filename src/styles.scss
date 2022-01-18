@@ -322,10 +322,10 @@ html, body {
 
     /* logo */
     .logo1 img{
-      z-index: 3;
+      z-index: 1;
       top:1;
       left: 1;
-      position:relative;
+      position:absolute;
       padding: 20px;
       width: 160px;
       margin-top: 20px;
@@ -917,12 +917,11 @@ footer {
   color: rgb(114, 115, 117);
   align-content: center;
   p{
-    
+    text-decoration: none;
     text-align: center;
   }
   a{
     color: #0650d8;
-    text-decoration: none;
   }
   .social-media p{
     float: left;

@@ -75,13 +75,10 @@
       font-weight: 300;
       font-size: 20px;
       line-height: 1.5em;
-      
-      
     }
     
     a {
       text-decoration: none;
-      
     }
      /* Main section below header */
     
@@ -89,16 +86,8 @@
       background: white;
       position: absolute;
       z-index: 0;
-      margin-top: 100vh;
-     
-      
-    
-      &::before{
-        content: "";
-        @include coverer;
-        top: -100vh;
-        
-      }
+      margin-top: 100vh ;
+      width: 100vw;
     }
     
    

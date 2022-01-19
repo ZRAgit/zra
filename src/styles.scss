@@ -566,10 +566,10 @@ nav a{
   }
   @media (min-width: 680px) {
     .sec-1 { 
-      height: 80vh;
+      height: 60vh;
       display: grid;
       grid-template-columns: 3fr 4fr 1fr 3fr 3fr 6fr;
-      margin-bottom: 50px;
+      margin-bottom: 70px;
     }
     .info1 {
        grid-column: span 2;
@@ -663,26 +663,7 @@ nav a{
     
 
     /* Blocks (second section) */
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 2fr) );
-      grid-gap: 0px;
-      min-width:200px;
-      max-width: 60%;
-      max-height: 100%;
-      top:0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      
-    }
     
-    .grid-container > div {
-      background-color: rgb(255, 255, 255);
-      text-align: center;
-      padding: 20px ;
-      font-size: 30px;
-    }
     
      
       

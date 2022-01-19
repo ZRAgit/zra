@@ -31,6 +31,7 @@
     
      video, .viewport-header1 {
       @include coverer;
+      height: 100%;
     }
     
     .viewport-header1 {
@@ -85,7 +86,7 @@
     
      main {
       background: white;
-      position: relative;
+      position: absolute;
       z-index: 3;
       margin-top: 100vh ;
       width: 100vw;

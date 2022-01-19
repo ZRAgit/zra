@@ -28,7 +28,8 @@
 /* HTML & body */
 html, body {
     height: 100%;
-    overflow-x: hidden;
+    overflow-x:hidden;
+    
     scroll-behavior: smooth;
   }
   html {
@@ -123,6 +124,7 @@ html, body {
   
   .btn-3 {
     font-weight: 100;
+    padding-bottom: 50px;
     
     svg {
       height: 30px;
@@ -130,6 +132,7 @@ html, body {
       position: absolute;
       top: 0; 
       width: 100%; 
+      padding-bottom: 50px;
     }
     
     rect {
@@ -224,7 +227,7 @@ html, body {
   /*Side nav*/
   .side-menu{
     z-index: 4;
-  right:-180px;
+    right:-180px;
     width: 180px;
     height: 100vh;
     padding: 50px 0;
@@ -289,7 +292,6 @@ nav a{
   content: "";
   display: block;
   height: 3px;
-  border-radius: 1pxna;
   margin: 6px 0;
   transition: 0.5s;
   cursor: pointer;
@@ -564,7 +566,7 @@ nav a{
     .sec-1 {
       
       display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1fr 2fr 2fr;
+      grid-template-columns: 3fr 4fr 1fr 3fr 3fr 6fr;
     }
     .info1 {
        grid-column: span 2;
@@ -597,6 +599,7 @@ nav a{
 
   .figure3{
     padding: 40px;
+    
   }
 
   
@@ -614,7 +617,7 @@ nav a{
   }
 
   .team-vid{
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     min-height: 300px;
     position: relative;
@@ -748,10 +751,9 @@ nav a{
 /*News at zra */
   
 .news-container {
-  height: 100vh;
+  height: 80vh;
   width:100%;
   display: inline-flex;
-  
   background-color: #2356a8; 
 }
 
@@ -763,19 +765,23 @@ font-size: 30px;
 
 .twt-vid  video {
 width: 100%;
-height: 100%;
+height: 70vh;
 position: absolute;
 object-fit: cover;
-z-index: 0;
+
 
 }
-
+.twtr{
+  z-index: 1;
+  position: relative; 
+}
 
 .twitter{
 width: 60%;
   color: white;
   position: relative;  
   background-color: black; 
+  height: 100%;
 }
 
 .news{
@@ -1006,5 +1012,5 @@ footer {
 
 
 
-html, body { height: 100%; }
+html, body { height: 100%;}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

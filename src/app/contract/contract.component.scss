@@ -55,14 +55,6 @@
   b{
       color: #114999;
   }
-  
-  
-  
-  
- 
-
-
-
 
 
   /*Main*/
@@ -79,25 +71,21 @@
     margin-bottom: 50px;
    
   }
-  
-
-
+ 
 b{
     color: #114999;
 }
 
 
-
-
 /*WHAT MAKES ZRA A GREAT PLACE TO WORK?*/
-@media (min-width: 80%) {
+@media (max-width: 50%) {
   .cards{
     margin: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
   }
   .card {
-    max-width: 500px;
+    max-width: 400px;
      grid-column: span 2;
      grid-row: span 2;
     padding: 40px;
@@ -107,14 +95,13 @@ b{
   }
   }
   .card1 {
-    max-width: 500px;
+    max-width: 300px;
     grid-column: span 2;
   }
- 
 }
   
 
-  .card  , .card1  {
+.card  , .card1  {
   min-width: 300px;
   padding: 20px;
   height: 100%;
@@ -123,16 +110,14 @@ b{
 }
 
   
-
-  
-    .card h2, .card1 h2{
+.card h2, .card1 h2{
       font-size:20px;
       color:#2356a8;
       text-align: center;
       line-height: 1em;
       }
       
-       .card  p, .card1  p{
+.card  p, .card1  p{
       font-size: 19px, 2vw;  
       text-align: center;
       line-height: 1.5em;
@@ -142,14 +127,24 @@ b{
   
   
   
-     .contract{
-       display: inline;
+.contract{
+       display: inline-block;
+      b{
+        line-height: 2em;
+      }
      }
-  .contract a{
-    margin: 20px;
+.contract a{
+    margin: 40px;
   }
 
-
+.info{
+  max-width: 65%;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 
 
 

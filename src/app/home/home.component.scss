@@ -11,11 +11,13 @@
     position: absolute;
     top: 0;
     left: 0;
+    
   }
 
   
     /* video background */
     .video-header {
+      
       position: absolute;
       text-align: center;
       width: 100vw;
@@ -24,7 +26,7 @@
         @include coverer;
       }
       video {
-        background: rgb(255, 255, 255);
+        background-color: #114ea3;
         object-fit: cover;
       }
     }
@@ -40,20 +42,32 @@
       justify-content: center;
     }
   
-  
+  h4{
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-size:  5vw;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing:.6rem;
+  }
   
     h1 {
       color: white;
       text-transform: uppercase;
       line-height: 1.2;
-      font-size:  3vw;
+      font-size: calc(20px + 0.5vw);
       text-align: center;
-      font-weight: 300;
+      font-weight: 400;
+      letter-spacing:.1rem;
       span {
-        display: block;
-        font-size: 4vw;
-        letter-spacing:1rem;
+        display: inline-block;
+        font-size: calc(10px + 0.5vw);
         top: 1;
+        letter-spacing:0.3em;
+        margin: 15px;
+        line-height: 1.4em;
+        font-weight: 300;
       }
     }
     
@@ -82,6 +96,7 @@
     a {
       text-decoration: none;
     }
+    
      /* Main section below header */
     
      main {
@@ -98,7 +113,7 @@
     .header-content{
      text-align: center;
      color: white;
-     line-height: 30px 2.1vh;
+  
     }
     
     .header-content h4{
@@ -293,9 +308,6 @@ margin-bottom:1.5em
     }
     
  
-
-    
-  
    
 
   

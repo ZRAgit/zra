@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "publish": "gh-pages -d src",
+    "homepage": "https://zragit.github.io/zra/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

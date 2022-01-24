@@ -249,7 +249,7 @@ margin-bottom:1.5em
         .cap, .cap1, .cap2, .cap3, .cap4, .cap5, .cap6, .cap7, .cap8, .cap9, .cap10, .cap11{
           position: relative;
           height:470px;
-          overflow-y: hidden;
+          overflow-y: none;
           width: 303px;
           box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
           -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);

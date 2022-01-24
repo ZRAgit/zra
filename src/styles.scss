@@ -29,6 +29,7 @@
 html, body {
     height: 100%;
     overflow-x:hidden;
+    
     scroll-behavior: smooth;
   }
   html {
@@ -492,8 +493,8 @@ nav a{
     width: 80%;
     height: 80%;
     position: relative;
-    overflow-x: scroll;
-    overflow-y: scroll;
+    overflow-x: none;
+    overflow-y: none;
   }
 
   input[type=checkbox] {
@@ -815,7 +816,8 @@ top: 10px;
   height: 80vh;
   width:100%;
   display: inline-flex;
-  background-color: #2356a8; 
+
+ 
 }
 
 .news-container > div {
@@ -854,7 +856,12 @@ display: grid;
 .news-content{
 background-color: white;
 height: 100%;
-width: 100%;
+width: 75%;
+top: 0;
+bottom: 0;
+left: 0;
+right:0;
+margin: auto;
 }
 
 
@@ -862,7 +869,14 @@ width: 100%;
    /*SLIDESHOW*/
 
    .news-title{
-    padding-right: 100px;
+    height: 100%;
+width: 75%;
+top: 0;
+bottom: 0;
+left: 0;
+right:0;
+margin: auto;
+background-color: #2356a8; 
   }
 
    @keyframes slide{
@@ -928,9 +942,10 @@ width: 100%;
 .slide-txt p{
   color: white;
   display: inline-block;
-  font-size: calc(10px + 0.5vw);
+  font-size: calc(10px + 0.3vw);
   margin-top: 20px;
   text-align: left;
+  padding:20px ;
 }
 
 
